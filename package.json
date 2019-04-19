@@ -1,0 +1,81 @@
+{
+  "name": "v-clappr",
+  "version": "0.0.1",
+  "description": "Vue.js wrapper for Clappr",
+  "main": "dist/v-clappr.min.js",
+  "module": "dist/v-clappr.esm.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "TEST=unit ava ./test/spec/*.spec.js --verbose --color",
+    "build": "npm run bundle && npm run bundle:min",
+    "bundle": "rollup -c build/rollup.conf.js",
+    "bundle:min": "rollup -c build/rollup.min.conf.js",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakkulkarni/v-clappr.git"
+  },
+  "keywords": [
+    "Vue.js",
+    "V-Clappr",
+    "Clappr",
+    "Vue.js",
+    "Clappr",
+    "Component",
+    "Vue-Clappr"
+  ],
+  "author": {
+    "name": "Vinayak Kulkarni",
+    "email": "vinayak.kulkarni@live.com",
+    "url": "https://vinayak.website"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinayakkulkarni/v-clappr/issues"
+  },
+  "homepage": "https://github.com/vinayakkulkarni/v-clappr#readme",
+  "dependencies": {
+    "clappr": "^0.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "ava": "^1.4.1",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-env": "^3.2.6",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "jsdom-global": "^3.0.2",
+    "nyc": "^14.0.0",
+    "prettier": "^1.17.0",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^1.0.0-beta.1",
+    "require-extension-hooks-vue": "^3.0.0",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10",
+    "tap-spec": "^5.0.0"
+  }
+}
