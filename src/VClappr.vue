@@ -38,6 +38,7 @@ export default {
           url: '',
           position: 'top-right',
         },
+        plugins: [],
       }),
     },
   },
@@ -76,6 +77,7 @@ export default {
         watermark: this.options.watermark.image,
         watermarkLink: this.options.watermark.url,
         position: this.options.watermark.position,
+        plugins: this.options.plugins,
       });
 
       // Emit init event passing map object

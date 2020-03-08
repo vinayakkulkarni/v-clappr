@@ -32,7 +32,8 @@ var script = {
           image: '',
           url: '',
           position: 'top-right'
-        }
+        },
+        plugins: []
       })
     }
   },
@@ -67,7 +68,8 @@ var script = {
         gaTrackerName: this.options.ga.tracker_name,
         watermark: this.options.watermark.image,
         watermarkLink: this.options.watermark.url,
-        position: this.options.watermark.position
+        position: this.options.watermark.position,
+        plugins: this.options.plugins
       });
       this.$emit('init', player);
       return player;
