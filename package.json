@@ -1,26 +1,21 @@
 {
   "name": "v-clappr",
-  "version": "0.0.1",
   "description": "Vue.js wrapper for Clappr",
-  "main": "dist/v-clappr.min.js",
-  "module": "dist/v-clappr.esm.js",
-  "files": [
-    "dist/*"
-  ],
-  "scripts": {
-    "test": "npm run test:unit",
-    "test:unit": "TEST=unit ava ./test/spec/*.spec.js --verbose --color",
-    "build": "npm run bundle && npm run bundle:min",
-    "bundle": "rollup -c build/rollup.conf.js",
-    "bundle:min": "rollup -c build/rollup.min.conf.js",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  "version": "0.0.1",
+  "author": {
+    "name": "Vinayak Kulkarni",
+    "email": "vinayak.kulkarni@live.com",
+    "url": "https://vinayakkulkarni.dev"
   },
   "private": false,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vinayakkulkarni/v-clappr.git"
-  },
+  "main": "dist/v-clappr.cjs.js",
+  "module": "dist/v-clappr.esm.js",
+  "unpkg": "dist/v-clappr.js",
+  "jsdelivr": "dist/v-clappr.js",
+  "cdn": "dist/v-image.js",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "Vue.js",
     "V-Clappr",
@@ -30,52 +25,63 @@
     "Component",
     "Vue-Clappr"
   ],
-  "author": {
-    "name": "Vinayak Kulkarni",
-    "email": "vinayak.kulkarni@live.com",
-    "url": "https://vinayak.website"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakkulkarni/v-clappr.git"
+  },
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "cross-env TEST=unit ava --config unit-tests.config.cjs",
+    "test:e2e": "cross-env TEST=unit ava --config e2e-tests.config.cjs",
+    "test:snapshot": "cross-env TEST=unit ava --update-snapshots",
+    "build": "npm run bundle && npm run bundle:min",
+    "bundle": "rollup -c build/rollup.conf.js",
+    "bundle:min": "rollup -c build/rollup.min.conf.js",
+    "lint": "eslint 'src/**/*.{js,vue}'",
+    "lintfix": "eslint --fix 'src/**/*.{js,vue}'",
+    "release:prepare": "shipjs prepare",
+    "release:trigger": "shipjs trigger"
+  },
+  "dependencies": {
+    "clappr": "^0.3.12"
+  },
+  "devDependencies": {
+    "@ava/babel": "^1.0.1",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@vue/test-utils": "^1.0.0-beta.33",
+    "ava": "^3.6.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "browser-env": "^3.3.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "husky": "^4.2.5",
+    "jsdom-global": "^3.0.2",
+    "nyc": "^15.0.1",
+    "prettier": "^2.0.4",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^1.0.0",
+    "require-extension-hooks-vue": "^3.0.0",
+    "rollup": "^2.6.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "shipjs": "0.18.2",
+    "tap-spec": "^5.0.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vinayakkulkarni/v-clappr/issues"
   },
-  "homepage": "https://github.com/vinayakkulkarni/v-clappr#readme",
-  "dependencies": {
-    "clappr": "^0.3.3"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/register": "^7.4.0",
-    "@vue/test-utils": "^1.0.0-beta.29",
-    "ava": "^1.4.1",
-    "babel-eslint": "^10.0.1",
-    "babel-plugin-module-resolver": "^3.2.0",
-    "babel-preset-env": "^1.7.0",
-    "browser-env": "^3.2.6",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-loader": "^2.1.2",
-    "eslint-plugin-import": "^2.17.1",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^5.2.2",
-    "jsdom-global": "^3.0.2",
-    "nyc": "^14.0.0",
-    "prettier": "^1.17.0",
-    "require-extension-hooks": "^0.3.3",
-    "require-extension-hooks-babel": "^1.0.0-beta.1",
-    "require-extension-hooks-vue": "^3.0.0",
-    "rollup": "^1.10.1",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-commonjs": "^9.3.4",
-    "rollup-plugin-terser": "^4.0.4",
-    "rollup-plugin-vue": "^5.0.0",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10",
-    "tap-spec": "^5.0.0"
-  }
+  "homepage": "https://github.com/vinayakkulkarni/v-clappr#readme"
 }
