@@ -7,6 +7,8 @@ if (process.env.TEST === 'unit') {
   Vue.config.productionTip = false;
   // https://github.com/nuxt/create-nuxt-app/issues/180#issuecomment-463069941
   window.Date = global.Date = Date;
+  // https://github.com/video-dev/hls.js/issues/2231#issuecomment-486102552
+  window.Number = Number;
 }
 
 if (process.env.TEST === 'e2e') {
