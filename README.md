@@ -86,6 +86,7 @@ Vue.component('example-component', {
       mediacontrol: { seekbar: '#E113D3', buttons: '#66B2FF' },
       ga: {},
       watermark: {},
+      plugins: [],
     },
     localclappr: null,
   }),
@@ -166,7 +167,7 @@ Vue.component('example-component', {
 | --------------  | ------ | --------- | ----------------------------------------------------------- |
 | `el`     | String | Yes        | The id required for initializing Clappr    |
 | `source`  | String | Yes        | The URL of the video to be fed to Clappr  |
-| `options` | Object | No        | Set of options provided to `Clappr.Player()` defaults: [L22-L42](src/VClappr.vue#L22-L42) |
+| `options` | Object | No        | Set of options provided to `Clappr.Player()` defaults: [L24-L44](src/VClappr.vue#L24-L44) |
 
 ### Events
 

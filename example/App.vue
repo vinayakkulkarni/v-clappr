@@ -43,6 +43,7 @@
         mediacontrol: { seekbar: '#E113D3', buttons: '#66B2FF' },
         ga: {},
         watermark: {},
+        plugins: [],
       },
       localclappr: null,
     }),
