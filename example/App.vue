@@ -31,6 +31,8 @@ export default {
     source:
       'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     options: {
+      width: 720,
+      height: 480,
       poster:
         'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
       mute: false,
