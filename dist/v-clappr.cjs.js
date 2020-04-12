@@ -1,4 +1,6 @@
-import { Player, Events } from 'clappr';
+'use strict';
+
+var clappr = require('clappr');
 
 var script = {
   name: 'VClappr',
@@ -55,7 +57,7 @@ var script = {
 
   methods: {
     initClapprPlayer() {
-      const player = new Player({
+      const player = new clappr.Player({
         parentId: `#${this.el}`,
         source: this.source,
         width: this.options.width,
@@ -78,37 +80,37 @@ var script = {
     },
 
     registerEvents(player) {
-      player.on(Events.PLAYER_READY, () => {
+      player.on(clappr.Events.PLAYER_READY, () => {
         this.$emit('ready', player);
       });
-      player.on(Events.PLAYER_PLAY, () => {
+      player.on(clappr.Events.PLAYER_PLAY, () => {
         this.$emit('play', player);
       });
-      player.on(Events.PLAYER_PAUSE, () => {
+      player.on(clappr.Events.PLAYER_PAUSE, () => {
         this.$emit('pause', player);
       });
-      player.on(Events.PLAYER_STOP, () => {
+      player.on(clappr.Events.PLAYER_STOP, () => {
         this.$emit('stop', player);
       });
-      player.on(Events.PLAYER_ENDED, () => {
+      player.on(clappr.Events.PLAYER_ENDED, () => {
         this.$emit('ended', player);
       });
-      player.on(Events.PLAYER_FULLSCREEN, bool => {
+      player.on(clappr.Events.PLAYER_FULLSCREEN, bool => {
         this.$emit('fullscreen', bool);
       });
-      player.on(Events.PLAYER_RESIZE, resize => {
+      player.on(clappr.Events.PLAYER_RESIZE, resize => {
         this.$emit('resize', resize);
       });
-      player.on(Events.PLAYER_SEEK, time => {
+      player.on(clappr.Events.PLAYER_SEEK, time => {
         this.$emit('seek', time);
       });
-      player.on(Events.PLAYER_TIMEUPDATE, progress => {
+      player.on(clappr.Events.PLAYER_TIMEUPDATE, progress => {
         this.$emit('timeupdate', progress);
       });
-      player.on(Events.PLAYER_VOLUMEUPDATE, volume => {
+      player.on(clappr.Events.PLAYER_VOLUMEUPDATE, volume => {
         this.$emit('volumeupdate', volume);
       });
-      player.on(Events.PLAYER_ERROR, err => {
+      player.on(clappr.Events.PLAYER_ERROR, err => {
         this.$emit('error', err);
       });
     }
@@ -233,4 +235,4 @@ __vue_render__._withStripped = true;
     undefined
   );
 
-export default __vue_component__;
+module.exports = __vue_component__;
