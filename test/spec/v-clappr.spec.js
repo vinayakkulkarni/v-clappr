@@ -11,14 +11,10 @@ test.beforeEach(() => {
   });
 });
 
-test('is a Vue instance', t => {
+test('is a Vue instance', (t) => {
   t.is(wrapper.isVueInstance(), true);
 });
 
-test('is the form buttons are clickable', t => {
-  t.is(wrapper.vm.$data.formSubmit, false);
-});
-
-test('renders correct snapshot', t => {
+test('renders correct snapshot', (t) => {
   t.snapshot(wrapper.vm.$el.outerHTML);
 });
