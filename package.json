@@ -32,7 +32,7 @@
   "scripts": {
     "test": "npm run test:unit",
     "test:unit": "cross-env TEST=unit ava --config unit-tests.config.cjs",
-    "test:e2e": "cross-env TEST=unit ava --config e2e-tests.config.cjs",
+    "test:e2e": "cross-env TEST=e2e ava --config e2e-tests.config.cjs",
     "test:snapshot": "cross-env TEST=unit ava --update-snapshots",
     "build": "npm run bundle && npm run bundle:min",
     "bundle": "rollup -c build/rollup.conf.js",
