@@ -43,6 +43,18 @@
           plugins: [],
           chromeless: false,
           allow_user_interaction: false,
+          i18n: {
+            en: {
+              live: 'live',
+              back_to_live: 'back to live',
+              disabled: 'Disabled',
+              playback_not_supported:
+                'Your browser does not support the playback of this video. Please try using a different browser.',
+              default_error_title: 'Could not play video.',
+              default_error_message:
+                'There was a problem trying to load the video.',
+            },
+          },
         }),
       },
     },
