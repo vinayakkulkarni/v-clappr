@@ -1,7 +1,6 @@
 # V-Clappr 🎥
 
-<center><a href="http://npmjs.org/package/v-clappr"><img src="https://img.shields.io/npm/v/v-clappr.svg" alt="npm version"></a> <a href="https://github.com/vinayakkulkarni/v-clappr/releases/latest"><img src="http://img.badgesize.io/vinayakkulkarni/v-clappr/master/dist/v-clappr.min.js?compression=gzip" alt="gzip size"></a> <a href="https://travis-ci.org/vinayakkulkarni/v-clappr"><img src="https://travis-ci.org/vinayakkulkarni/v-clappr.svg?branch=master" alt="Build Status"></a> <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr.svg?type=shield"/></a>
-<a href="http://npm-stat.com/charts.html?package=v-clappr"><img src="https://img.shields.io/npm/dm/v-clappr.svg" alt="npm downloads"></a></center>
+<a href="http://npmjs.org/package/v-clappr" target="_blank"><img alt="npm (tag)" src="https://img.shields.io/npm/v/v-clappr/latest"></a> <a href="https://github.com/vinayakkulkarni/v-clappr/releases" target="_blank"><img alt="GitHub tag (latest SemVer pre-release)" src="https://img.shields.io/github/v/tag/vinayakkulkarni/v-clappr?include_prereleases&label=release%40latest"></a> <a href="https://github.com/vinayakkulkarni/v-clappr/actions?query=workflow%3A%22Ship+js+trigger%22" target="_blank"><img alt="Build Status" src="https://github.com/vinayakkulkarni/v-clappr/workflows/Ship%20js%20trigger/badge.svg"></a> <a href="https://github.com/vinayakkulkarni/v-clappr/releases/latest" target="_blank"><img src="http://img.badgesize.io/vinayakkulkarni/v-clappr/master/dist/v-clappr.min.js?compression=gzip" alt="gzip size"></a> <a href="https://travis-ci.org/vinayakkulkarni/v-clappr" target="_blank"><img src="https://travis-ci.org/vinayakkulkarni/v-clappr.svg?branch=master" alt="Build Status"></a> <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr?ref=badge_shield" target="_blank"><img alt="FOSSA Status" src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr.svg?type=shield"/></a> <a href="http://npm-stat.com/charts.html?package=v-clappr" target="_blank"><img src="https://img.shields.io/npm/dm/v-clappr.svg" alt="npm downloads"></a> <a href="https://david-dm.org/vinayakkulkarni/v-clappr" target="_blank"><img alt="David" src="https://img.shields.io/david/vinayakkulkarni/v-clappr"></a> <a href="https://david-dm.org/vinayakkulkarni/janak?type=dev" target="_blank"><img alt="David" src="https://img.shields.io/david/dev/vinayakkulkarni/v-clappr?color=brightgreen"></a> <a href="https://github.com/vinayakkulkarni/v-clappr/commits/master" target="_blank"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vinayakkulkarni/v-clappr"></a> <a href="https://github.com/vinayakkulkarni/v-clappr/commits/master" target="_blank"><img alt="Maintenance" src="https://img.shields.io/maintenance/yes/2020"></a> <a href="https://github.com/vinayakkulkarni/v-clappr/graphs/contributors" target="_blank"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/vinayakkulkarni/v-clappr"></a>
 
 ---
 
@@ -168,7 +167,7 @@ Vue.component('example-component', {
 | --------------  | ------ | --------- | ----------------------------------------------------------- |
 | `el`     | String | Yes        | The id required for initializing Clappr    |
 | `source`  | String | Yes        | The URL of the video to be fed to Clappr  |
-| `options` | Object | No        | Set of options provided to `Clappr.Player()` defaults: [L24-L44](src/VClappr.vue#L24-L44) |
+| `options` | Object | No        | Set of options provided to `Clappr.Player()` defaults: [L24-L79](src/VClappr.vue#L24-L79) |
 
 ### Events
 
@@ -199,7 +198,7 @@ Vue.component('example-component', {
 **v-clappr** © [Vinayak](https://github.com/vinayakkulkarni), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by Vinayak Kulkarni with help from contributors ([list](https://github.com/vinayakkulkarni/v-clappr/contributors)).
 
-> [vinayak.pw](https://vinayak.pw) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
+> [vinayakkulkarni.dev](https://vinayakkulkarni.dev) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
 
 
 ## License

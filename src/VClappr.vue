@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import { Player, Events } from 'clappr';
+  import { Browser, Player, Events } from 'clappr';
 
   export default {
     name: 'VClappr',
@@ -41,6 +41,41 @@
             position: 'top-right',
           },
           plugins: [],
+          chromeless: false,
+          allow_user_interaction: false,
+          i18n: {
+            en: {
+              live: 'live',
+              back_to_live: 'back to live',
+              disabled: 'Disabled',
+              playback_not_supported:
+                'Your browser does not support the playback of this video. Please try using a different browser.',
+              default_error_title: 'Could not play video.',
+              default_error_message:
+                'There was a problem trying to load the video.',
+            },
+          },
+          mime_type: '',
+          actual_live_time: '',
+          preload: '',
+          playback: {
+            preload: 'metadata',
+            controls: true,
+            playInline: true, // allows inline playback when running on iOS UIWebview
+            crossOrigin: '',
+            recycleVideo: Browser.isMobile, // Recycle <video> element only for mobile. (default is true)
+            triggerFatalErrorOnResourceDenied: true, // Triggers playback fatal error if resource is denied. (default is false)
+            externalTracks: [],
+            hlsUseNextLevel: false,
+            hlsjsConfig: {
+              // hls.js specific options
+            },
+          },
+          cc: {
+            title: '',
+            ariaLabel: '',
+            labelCallback: () => {},
+          },
         }),
       },
     },
@@ -82,6 +117,14 @@
           watermarkLink: this.options.watermark.url,
           position: this.options.watermark.position,
           plugins: this.options.plugins,
+          chromeless: this.options.chromeless,
+          allowUserInteraction: this.options.allow_user_interaction,
+          strings: this.options.i18n,
+          mimeType: this.options.mime_type,
+          actualLiveTime: this.options.actual_live_time,
+          preload: this.options.preload,
+          playback: this.options.playback,
+          closedCaptionsConfig: this.options.cc,
         });
 
         // Emit init event passing map object
