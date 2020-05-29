@@ -168,7 +168,7 @@ Vue.component('example-component', {
 | --------------  | ------ | --------- | ----------------------------------------------------------- |
 | `el`     | String | Yes        | The id required for initializing Clappr    |
 | `source`  | String | Yes        | The URL of the video to be fed to Clappr  |
-| `options` | Object | No        | Set of options provided to `Clappr.Player()` defaults: [L24-L44](src/VClappr.vue#L24-L44) |
+| `options` | Object | No        | Set of options provided to `Clappr.Player()` defaults: [L24-L79](src/VClappr.vue#L24-L79) |
 
 ### Events
 
@@ -199,7 +199,7 @@ Vue.component('example-component', {
 **v-clappr** © [Vinayak](https://github.com/vinayakkulkarni), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by Vinayak Kulkarni with help from contributors ([list](https://github.com/vinayakkulkarni/v-clappr/contributors)).
 
-> [vinayak.pw](https://vinayak.pw) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
+> [vinayakkulkarni.dev](https://vinayakkulkarni.dev) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
 
 
 ## License
