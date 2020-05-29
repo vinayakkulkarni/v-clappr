@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import { Player, Events } from 'clappr';
+  import { Browser, Player, Events } from 'clappr';
 
   export default {
     name: 'VClappr',
@@ -53,6 +53,19 @@
               default_error_title: 'Could not play video.',
               default_error_message:
                 'There was a problem trying to load the video.',
+            },
+          },
+          playback: {
+            preload: 'metadata',
+            controls: true,
+            playInline: true, // allows inline playback when running on iOS UIWebview
+            crossOrigin: '',
+            recycleVideo: Browser.isMobile, // Recycle <video> element only for mobile. (default is true)
+            triggerFatalErrorOnResourceDenied: true, // Triggers playback fatal error if resource is denied. (default is false)
+            externalTracks: [],
+            hlsUseNextLevel: false,
+            hlsjsConfig: {
+              // hls.js specific options
             },
           },
         }),
