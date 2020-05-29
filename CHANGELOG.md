@@ -1,3 +1,18 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/vinayakkulkarni/v-clappr/compare/v1.0.0...v1.1.0) (2020-05-29)
+
+
+### Bug Fixes
+
+* update `cross-env` ([#7](https://github.com/vinayakkulkarni/v-clappr/issues/7)) ([6178190](https://github.com/vinayakkulkarni/v-clappr/commit/6178190))
+
+
+### Features
+
+* add support for built in plugins & minor housekeeping ([#10](https://github.com/vinayakkulkarni/v-clappr/issues/10)) ([c9f7103](https://github.com/vinayakkulkarni/v-clappr/commit/c9f7103))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/vinayakkulkarni/v-clappr/compare/0.0.1...1.0.0) (2020-04-12)
 
