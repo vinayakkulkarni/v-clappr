@@ -41,6 +41,8 @@
             position: 'top-right',
           },
           plugins: [],
+          chromeless: false,
+          allow_user_interaction: false,
         }),
       },
     },
