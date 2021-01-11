@@ -49,6 +49,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@rollup/plugin-commonjs": "^17.0.0",
+    "@vinayakkulkarni/prettier-config-vue": "^1.0.0",
     "@vue/test-utils": "^1.0.3",
     "ava": "^3.8.2",
     "babel-eslint": "^10.1.0",
