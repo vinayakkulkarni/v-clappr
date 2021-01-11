@@ -42,7 +42,7 @@
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lintfix": "npm run lint:eslint:fix && npm run lint:prettier:fix",
     "lint:js": "npm run lint:eslint && npm run lint:prettier",
-    "release": "shipjs trigger"
+    "release": "shipjs prepare"
   },
   "dependencies": {
     "clappr": "^0.3.13"
