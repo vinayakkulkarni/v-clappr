@@ -37,8 +37,7 @@
     "format": "prettier --write 'src/**/*.{js,vue}'",
     "lint": "eslint 'src/**/*.{js,vue}'",
     "lintfix": "eslint --fix 'src/**/*.{js,vue}'",
-    "release:prepare": "shipjs prepare",
-    "release:trigger": "shipjs trigger"
+    "release": "shipjs trigger"
   },
   "dependencies": {
     "clappr": "^0.3.12"
