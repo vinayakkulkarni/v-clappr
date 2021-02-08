@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import { Browser, Player, Events } from 'clappr';
+  import { Player, Events } from 'clappr';
 
   export default {
     name: 'VClappr',
