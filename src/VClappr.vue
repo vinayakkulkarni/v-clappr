@@ -99,33 +99,12 @@
     methods: {
       initClapprPlayer() {
         // New Player instance
-        const player = new Player({
-          parentId: `#${this.el}`,
-          source: this.source,
-          width: this.options.width,
-          height: this.options.height,
-          autoPlay: this.options.autoplay,
-          poster: this.options.poster,
-          mute: this.options.mute,
-          loop: this.options.loop,
-          mediacontrol: this.options.mediacontrol,
-          disableKeyboardShortcuts: this.options.disable_keyboard_shortcuts,
-          disableVideoTagContextMenu: this.options.disable_context_menu,
-          gaAccount: this.options.ga.account,
-          gaTrackerName: this.options.ga.tracker_name,
-          watermark: this.options.watermark.image,
-          watermarkLink: this.options.watermark.url,
-          position: this.options.watermark.position,
-          plugins: this.options.plugins,
-          chromeless: this.options.chromeless,
-          allowUserInteraction: this.options.allow_user_interaction,
-          strings: this.options.i18n,
-          mimeType: this.options.mime_type,
-          actualLiveTime: this.options.actual_live_time,
-          preload: this.options.preload,
-          playback: this.options.playback,
-          closedCaptionsConfig: this.options.cc,
-        });
+        const player = new Player(
+          Object.assign(this.options, {
+            parentId: `#${this.el}`,
+            source: this.source,
+          }),
+        );
 
         // Emit init event passing map object
         this.$emit('init', player);
