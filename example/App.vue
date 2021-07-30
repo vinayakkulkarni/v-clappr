@@ -1,88 +1,97 @@
 <template>
-  <div id="app">
-    <v-clappr
-      el="player"
-      :source="source"
-      :options="options"
-      @init="oninit"
-      @ready="onready"
-      @play="onplay"
-      @pause="onpause"
-      @stop="onstop"
-      @ended="onended"
-      @fullscreen="onfullscreen"
-      @resize="onresize"
-      @seek="onseek"
-      @timeupdate="ontimeupdate"
-      @volumeupdate="onvolumeupdate"
-      @error="onerror"
-    />
-  </div>
+  <v-clappr
+    el="player"
+    :source="source"
+    :options="options"
+    class="w-full h-full"
+    @init="onInit"
+    @ready="onReady"
+    @resize="onResize"
+    @play="onPlay"
+    @pause="onPause"
+    @stop="onStop"
+    @ended="onEnded"
+    @seek="onSeek"
+    @error="onError"
+    @time-updated="onTimeUpdated"
+    @volume-updated="onVolumeUpdated"
+    @subtitle-available="onSubtitleAvailable"
+  />
 </template>
-
 <script>
-  import VClappr from '../src';
+  import { VClappr } from '../src';
 
   export default {
+    name: 'App',
     components: {
       VClappr,
     },
-    data: () => ({
-      source:
-        'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-      options: {
-        width: 720,
-        height: 480,
-        poster:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-        mute: false,
-        autoplay: false,
-        loop: false,
-        disable_keyboard_shortcuts: false,
-        disable_context_menu: true,
-        mediacontrol: { seekbar: '#E113D3', buttons: '#66B2FF' },
-        ga: {},
-        watermark: {},
-        plugins: [],
-      },
-      localclappr: null,
-    }),
+    data() {
+      return {
+        clappr: null,
+        source:
+          'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd',
+        options: {
+          width: '100%',
+          height: '100%',
+          autoPlay: false,
+          mute: false,
+          loop: false,
+          language: 'en-US',
+          playbackNotSupportedMessage: 'Playback not supported',
+          autoSeekFromUrl: true,
+          includeResetStyle: true,
+          playback: {
+            preload: 'metadata',
+            disableContextMenu: true,
+            controls: false,
+            crossOrigin: null,
+            playInline: false,
+            minimumDvrSize: null,
+            externalTracks: [],
+            hlsjsConfig: {},
+            shakaConfiguration: {},
+          },
+          poster: 'https://picsum.photos/3840/2160',
+        },
+      };
+    },
     methods: {
-      oninit(clappr) {
-        this.localclappr = clappr;
+      onInit(clappr) {
+        this.clappr = clappr;
       },
-      onready(event) {
-        console.log('inside hook: onready', event);
+      onReady(e) {
+        console.log('onReady Event: ', e);
       },
-      onplay(event) {
-        console.log('inside hook: onplay', event);
+      onResize(e) {
+        console.log('onResize Event: ', e);
       },
-      onpause(event) {
-        console.log('inside hook: onpause', event);
+      onPlay(e) {
+        console.log('onPlay Event: ', e);
       },
-      onstop(event) {
-        console.log('inside hook: onstop', event);
+      onPause(e) {
+        console.log('onPause Event: ', e);
       },
-      onended(event) {
-        console.log('inside hook: onended', event);
+      onStop(e) {
+        console.log('onStop Event: ', e);
       },
-      onfullscreen(isBool) {
-        console.log('player fullscreen?', isBool);
+      onEnded(e) {
+        console.log('onEnded Event: ', e);
       },
-      onresize(resize) {
-        console.log('Resized object', resize);
+      onSeek(e) {
+        console.log('onSeek Event: ', e);
       },
-      onseek(time) {
-        console.log('on seek, time in seconds:', time);
+      onError(e) {
+        console.log('onError Event: ', e);
       },
-      ontimeupdate(progress) {
-        console.log('Progress of played video:', progress);
+      onTimeUpdated(e) {
+        console.log('onTimeUpdate Event: ', e);
       },
-      onvolumeupdate(volume) {
-        console.log('Volume updated, current volume:', volume);
+      onVolumeUpdated(e) {
+        console.log('onVolumeUpdate Event: ', e);
       },
-      onerror(e) {
-        console.log('le error:', e);
+      onSubtitleAvailable(e) {
+        console.log('onSubtitleAvailable Event: ', e);
       },
     },
   };
