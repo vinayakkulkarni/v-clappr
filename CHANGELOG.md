@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/vinayakkulkarni/v-clappr/compare/v1.5.0...v2.0.0) (2021-07-30)
+
+
+### Bug Fixes
+
+* add support for `eslint-plugin-prettier` ([b4997ce](https://github.com/vinayakkulkarni/v-clappr/commit/b4997ceee765272550a9d643214d0554406a1199))
+* **deps:** bump actions/cache from 2.1.4 to 2.1.6 ([#289](https://github.com/vinayakkulkarni/v-clappr/issues/289)) ([99d622f](https://github.com/vinayakkulkarni/v-clappr/commit/99d622fa764338c47edcc1d8d921cb283b9d32e4))
+* **deps:** bump actions/cache from v2 to v2.1.4 ([#202](https://github.com/vinayakkulkarni/v-clappr/issues/202)) ([62a7e80](https://github.com/vinayakkulkarni/v-clappr/commit/62a7e800d3474a53bade0c5f2e8e8d5c5a53cf02))
+* **deps:** bump browserslist from 4.16.3 to 4.16.6 ([#285](https://github.com/vinayakkulkarni/v-clappr/issues/285)) ([a0ee28a](https://github.com/vinayakkulkarni/v-clappr/commit/a0ee28a21abae03581d336e4b7489b98dbc69fae))
+* **deps:** bump glob-parent from 5.1.1 to 5.1.2 ([#297](https://github.com/vinayakkulkarni/v-clappr/issues/297)) ([a4b0c3f](https://github.com/vinayakkulkarni/v-clappr/commit/a4b0c3f3214395e813a627f6b9024ecc1a9db34d))
+* **deps:** bump hosted-git-info from 2.8.8 to 2.8.9 ([#274](https://github.com/vinayakkulkarni/v-clappr/issues/274)) ([2ade0b2](https://github.com/vinayakkulkarni/v-clappr/commit/2ade0b2555288b7d78b6793242a7c4c00d845ba6))
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([#273](https://github.com/vinayakkulkarni/v-clappr/issues/273)) ([0ed28b1](https://github.com/vinayakkulkarni/v-clappr/commit/0ed28b1b65054bb593ca7175fa3cfd2d298f18f7))
+* **deps:** bump pug-code-gen from 2.0.2 to 2.0.3 ([#230](https://github.com/vinayakkulkarni/v-clappr/issues/230)) ([ce77f2a](https://github.com/vinayakkulkarni/v-clappr/commit/ce77f2a0da135d2343a93431104b4c38fcadf508))
+* **deps:** bump ws from 6.2.1 to 6.2.2 ([#294](https://github.com/vinayakkulkarni/v-clappr/issues/294)) ([619f635](https://github.com/vinayakkulkarni/v-clappr/commit/619f6356286098dd8f6e0c2a2239b9da3629e15f))
+* **deps:** update actions/setup-node requirement to v2.1.5 ([#215](https://github.com/vinayakkulkarni/v-clappr/issues/215)) ([18ee0d3](https://github.com/vinayakkulkarni/v-clappr/commit/18ee0d39e64d35a82d0ac17825bfb06b3be492ff))
+
+
+
 # [1.5.0](https://github.com/vinayakkulkarni/v-clappr/compare/v1.1.1...v1.5.0) (2021-01-11)
 
 

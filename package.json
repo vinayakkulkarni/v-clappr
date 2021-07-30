@@ -1,6 +1,6 @@
 {
   "name": "v-clappr",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "Vue.js wrapper for Clappr",
   "types": "types/index.d.ts",
   "main": "dist/v-clappr.cjs.js",
