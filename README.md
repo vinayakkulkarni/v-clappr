@@ -32,7 +32,7 @@
 ---
 ## Demo 
 
-[![Edit VClappr Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](http://bit.ly/v-clappr)
+[![Edit VClappr Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](http://bit.ly/v-clappr-2)
 
 ---
 
