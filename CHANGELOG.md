@@ -1,3 +1,13 @@
+## [2.0.2](https://github.com/vinayakkulkarni/v-clappr/compare/v2.0.1...v2.0.2) (2021-08-05)
+
+
+### Bug Fixes
+
+* **build:** use `pull_request_target` event ([5b4d097](https://github.com/vinayakkulkarni/v-clappr/commit/5b4d097f0a40901d6fffc0ebd8c5813fdb498954))
+* **deps:** bump actions/setup-node from 2.3.0 to 2.3.2 ([#357](https://github.com/vinayakkulkarni/v-clappr/issues/357)) ([3181817](https://github.com/vinayakkulkarni/v-clappr/commit/318181794a4a6cd3a12fae119fba3bf60f56bb7a))
+
+
+
 ## [2.0.1](https://github.com/vinayakkulkarni/v-clappr/compare/v2.0.0...v2.0.1) (2021-07-30)
 
 
