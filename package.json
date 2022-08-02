@@ -58,7 +58,7 @@
     "@vue/composition-api": "^1.0.5",
     "@vue/runtime-dom": "^3.1.5",
     "dash-shaka-playback": "^3.0.3",
-    "eslint": "^7.32.0",
+    "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsdoc": "^39.1.1",
     "eslint-plugin-prettier": "^4.0.0",
