@@ -23,7 +23,7 @@
 
 <script lang="ts">
   import { defineComponent, reactive } from 'vue';
-  import { VClappr } from '../../';
+  import { VClappr } from 'v-clappr';
 
   export default defineComponent({
     name: 'ExampleApp',
