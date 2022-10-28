@@ -16,7 +16,7 @@
 
 [![eslint](https://img.shields.io/npm/dependency-version/v-clappr/dev/eslint?logo=eslint)](https://eslint.org/)
 [![prettier](https://img.shields.io/npm/dependency-version/v-clappr/dev/prettier?logo=prettier)](https://prettier.io/)
-[![rollup](https://img.shields.io/npm/dependency-version/v-clappr/dev/rollup?logo=rollup.js)](https://rollupjs.org/guide/en/)
+[![vite](https://img.shields.io/npm/dependency-version/v-clappr/dev/vite?logo=vite)](https://vitejs.dev/)
 [![vue](https://img.shields.io/npm/dependency-version/v-clappr/dev/vue?logo=vue.js)](https://vuejs.org/)
 [![typescript](https://img.shields.io/npm/dependency-version/v-clappr/dev/typescript?logo=TypeScript)](https://www.typescriptlang.org/)
 
@@ -242,27 +242,27 @@ Vue.component('example-component', {
 ## API
 ### Props
 
-| Name            | Type   | Required? | Description                                                 |
-| --------------  | ------ | --------- | ----------------------------------------------------------- |
-| `el`     | String | Yes        | The id required for initializing Clappr    |
-| `source`  | String | Yes        | The URL of the video to be fed to Clappr  |
+| Name      | Type   | Required? | Description                                                                                                                                             |
+| --------- | ------ | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `el`      | String | Yes       | The id required for initializing Clappr                                                                                                                 |
+| `source`  | String | Yes       | The URL of the video to be fed to Clappr                                                                                                                |
 | `options` | Object | No        | Set of options provided by [Clappr](https://github.com/clappr/clappr-core#hammer_and_wrench-configuration) defaults: [L47-L69](src/VClappr.vue#L47-L69) |
 
 ### Events
 
-| Name                 | Description                                                                 |
-| -------------------- | --------------------------------------------------------------------------- |
-| `ready` | Emits an `Object` the Player instance |
-| `resize` |  Emits an `Object` with width & height numbers |
-| `play` |  Emits an `Boolean` value |
-| `pause` |  Emits an `Boolean` value |
-| `stop` |  Emits an `Boolean` value |
-| `ended` | Emits an `Boolean` value |
-| `seek` | Emits an `Number` value  |
-| `error` | Emits an `Error` type |
-| `time-updated` | Emits an `Object` current & total time in microseconds |
-| `volume-updated` | Emits an `Number` with current volume |
-| `subtitle-available` | Emits an `Boolean` value |
+| Name                 | Description                                            |
+| -------------------- | ------------------------------------------------------ |
+| `ready`              | Emits an `Object` the Player instance                  |
+| `resize`             | Emits an `Object` with width & height numbers          |
+| `play`               | Emits an `Boolean` value                               |
+| `pause`              | Emits an `Boolean` value                               |
+| `stop`               | Emits an `Boolean` value                               |
+| `ended`              | Emits an `Boolean` value                               |
+| `seek`               | Emits an `Number` value                                |
+| `error`              | Emits an `Error` type                                  |
+| `time-updated`       | Emits an `Object` current & total time in microseconds |
+| `volume-updated`     | Emits an `Number` with current volume                  |
+| `subtitle-available` | Emits an `Boolean` value                               |
 
 ## Contributing 
 
@@ -273,7 +273,7 @@ Vue.component('example-component', {
 5. Create a new [Pull Request](https://github.com/vinayakkulkarni/v-clappr/compare)
 
 _Note_: 
-1. Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow/)
+1. Please contribute using [GitHub Flow](https://web.archive.org/web/20191104103724/https://guides.github.com/introduction/flow/)
 2. Commits & PRs will be allowed only if the commit messages & PR titles follow the [conventional commit standard](https://www.conventionalcommits.org/), _read more about it [here](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional#type-enum)_
 3. PS. Ensure your commits are signed. _[Read why](https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html)_
 
