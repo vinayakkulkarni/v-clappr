@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "v-clappr": "file:..",
+    "v-clappr": "^3.0.0",
     "vue": "^3.2.41"
   },
   "devDependencies": {
