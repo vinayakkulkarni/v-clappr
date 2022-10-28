@@ -1,3 +1,26 @@
+# [3.0.0](https://github.com/vinayakkulkarni/v-clappr/compare/v2.0.2...v3.0.0) (2022-10-28)
+
+
+### Bug Fixes
+
+* dependency issue for v-clappr in example ([a5144f0](https://github.com/vinayakkulkarni/v-clappr/commit/a5144f0043663c813ae2b1c0233088b27b3d8693))
+* **deps:** bump actions/checkout from 2 to 3 ([#661](https://github.com/vinayakkulkarni/v-clappr/issues/661)) ([d0b1199](https://github.com/vinayakkulkarni/v-clappr/commit/d0b11998ce79afb8df8e41fdcd0c9ece96828814))
+* **deps:** bump actions/setup-node from 2.3.2 to 2.4.0 ([#359](https://github.com/vinayakkulkarni/v-clappr/issues/359)) ([28fcc92](https://github.com/vinayakkulkarni/v-clappr/commit/28fcc92ec5864ea0d56c5532c54519688edf1588))
+* **deps:** bump actions/setup-node from 2.4.0 to 2.4.1 ([#449](https://github.com/vinayakkulkarni/v-clappr/issues/449)) ([58ef581](https://github.com/vinayakkulkarni/v-clappr/commit/58ef5811a64e4c8bfe44b34c4c06a38e91603db6))
+* **deps:** bump actions/setup-node from 2.4.1 to 2.5.0 ([#526](https://github.com/vinayakkulkarni/v-clappr/issues/526)) ([77e7bad](https://github.com/vinayakkulkarni/v-clappr/commit/77e7bad48e3a41a0608972b9e9bb214c67bd8e3e))
+* **deps:** bump actions/setup-node from 2.5.0 to 3 ([#659](https://github.com/vinayakkulkarni/v-clappr/issues/659)) ([ac0e20f](https://github.com/vinayakkulkarni/v-clappr/commit/ac0e20f83d14f6570bf616a559b55dc0048c1cc3))
+* **deps:** bump ansi-regex from 5.0.0 to 5.0.1 ([#881](https://github.com/vinayakkulkarni/v-clappr/issues/881)) ([8605aa7](https://github.com/vinayakkulkarni/v-clappr/commit/8605aa7f44f2f1485b6abc1917cfcabff14bfe73))
+* **deps:** bump axios from 0.21.1 to 0.21.4 ([#702](https://github.com/vinayakkulkarni/v-clappr/issues/702)) ([d035d11](https://github.com/vinayakkulkarni/v-clappr/commit/d035d1194569d898958ee1e0a9244517f5efa9bd))
+* **deps:** bump ejs from 3.1.6 to 3.1.7 ([#744](https://github.com/vinayakkulkarni/v-clappr/issues/744)) ([c313a2b](https://github.com/vinayakkulkarni/v-clappr/commit/c313a2b3b17f1a8e14b4d0b1f494ac99c9b50fef))
+* **deps:** bump follow-redirects from 1.14.1 to 1.14.8 ([#640](https://github.com/vinayakkulkarni/v-clappr/issues/640)) ([a056f1c](https://github.com/vinayakkulkarni/v-clappr/commit/a056f1c07bda1ecdd4d6f15ed86d05e993a222fa))
+* **deps:** bump minimist from 1.2.5 to 1.2.6 ([#690](https://github.com/vinayakkulkarni/v-clappr/issues/690)) ([f33f44c](https://github.com/vinayakkulkarni/v-clappr/commit/f33f44c229a2cf878d18e8cfaed0e5bac8e7feba))
+* **deps:** bump nanoid from 3.1.23 to 3.3.1 ([#685](https://github.com/vinayakkulkarni/v-clappr/issues/685)) ([f7cd356](https://github.com/vinayakkulkarni/v-clappr/commit/f7cd3567e181038e8e14bd96c77af1f6e6caf939))
+* **deps:** bump shell-quote from 1.7.2 to 1.7.3 ([#790](https://github.com/vinayakkulkarni/v-clappr/issues/790)) ([ae28779](https://github.com/vinayakkulkarni/v-clappr/commit/ae287799e079b8ab4cb282d510d5f3a6b66d8004))
+* **deps:** bump terser from 5.7.1 to 5.14.2 ([#812](https://github.com/vinayakkulkarni/v-clappr/issues/812)) ([661c082](https://github.com/vinayakkulkarni/v-clappr/commit/661c082836ca97540941fe1cab036ad4dbad5abf))
+* **deps:** bump wearerequired/lint-action from 1 to 2 ([#734](https://github.com/vinayakkulkarni/v-clappr/issues/734)) ([42e114b](https://github.com/vinayakkulkarni/v-clappr/commit/42e114b788e618e629715258573ea2a1dcda542c))
+
+
+
 ## [2.0.2](https://github.com/vinayakkulkarni/v-clappr/compare/v2.0.1...v2.0.2) (2021-08-05)
 
 
