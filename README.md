@@ -59,12 +59,11 @@
 
 ## Requirements
 
-- [vue](https://vuejs.org/) `^2.x`
-- [@vue/composition-api](https://v3.vuejs.org/guide/composition-api-introduction.html) `^1.x`
-- [@clappr/core](https://www.npmjs.com/package/@clappr/core) `^0.4.18`
-- [@clappr/plugins](https://www.npmjs.com/package/@clappr/core) `^0.4.13`
-- [@clappr/plugins](https://www.npmjs.com/package/@clappr/hlsjs-playback) `^0.6.0`
-- [dash-shaka-playback](https://www.npmjs.com/package/dash-shaka-playback) `^3.0.3`
+- [Vue 3.x](https://vuejs.org/)
+- [@clappr/core](https://www.npmjs.com/package/@clappr/core)
+- [@clappr/plugins](https://www.npmjs.com/package/@clappr/core)
+- [@clappr/plugins](https://www.npmjs.com/package/@clappr/hlsjs-playback)
+<!-- - [dash-shaka-playback](https://www.npmjs.com/package/dash-shaka-playback) `^3.0.3` -->
 
 ### Build Setup
 
