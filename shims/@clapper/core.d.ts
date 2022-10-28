@@ -1,7 +1,7 @@
 declare module '@clappr/core' {
   type PlayerOptions = {
     parentId: string;
-    [key: string]: any;
+    [key: string]: unknown;
   };
 
   export class Player {

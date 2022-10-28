@@ -3,7 +3,6 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
-    "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
@@ -16,6 +15,7 @@
     "experimentalDecorators": true,
     "baseUrl": ".",
     "outDir": "./dist",
+    "jsx": "preserve",
     "lib": [
       "esnext",
       "dom",
@@ -24,20 +24,22 @@
       "esnext.asynciterable"
     ],
     "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./src/*"]
-    },
-    "types": [
-      "@types/node"
-    ]
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "src/*"
+      ]
+    }
   },
+  "types": [
+    "@types/node"
+  ],
   "include": [
-    "src",
-    "build",
-    "shims"
+    "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "dist"
+    "dist",
+    "node_modules"
   ]
 }
