@@ -50,10 +50,13 @@ jobs:
           neutral_check_on_warning: true
           stylelint: true
           stylelint_extensions: css,scss,vue
+          stylelint_args: --ignore-path .gitignore
           eslint: true
           eslint_extensions: js,ts,vue
+          eslint_args: --ignore-path .gitignore
           prettier: true
           prettier_extensions: js,ts,vue
+          prettier_args: --ignore-path .gitignore
 
       - name: Perform tests 🧪
         run: npm run test
