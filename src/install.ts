@@ -1,16 +1,10 @@
-import VueCompositionApi from '@vue/composition-api';
-import { VueConstructor } from 'vue';
+import { App, Plugin } from 'vue';
 import VClappr from './VClappr.vue';
 
-let installed = false;
-
-const install = {
-  install(Vue: VueConstructor): void {
-    if (installed) return;
-    Vue.use(VueCompositionApi);
-    Vue.component('VClappr', VClappr);
-    installed = true;
+const VClapprPlugin: Plugin = {
+  install(app: App) {
+    app.component('VClappr', VClappr);
   },
 };
 
-export default install;
+export default VClapprPlugin;

@@ -2,13 +2,11 @@
   import {
     h,
     ref,
-    Ref,
     onMounted,
     defineComponent,
     onBeforeUnmount,
-    SetupContext,
     nextTick,
-  } from '@vue/composition-api';
+  } from 'vue';
   import { Player } from '@clappr/core';
   import {
     ClickToPause,
@@ -26,7 +24,36 @@
     WaterMark,
   } from '@clappr/plugins';
   import HlsjsPlayback from '@clappr/hlsjs-playback';
-  import { VClapprProps } from '~/types';
+
+  type Options = {
+    width?: number;
+    height?: number;
+    poster?: string;
+    mute?: boolean;
+    autoPlay?: boolean;
+    loop?: boolean;
+    language?: string;
+    playbackNotSupportedMessage?: string;
+    autoSeekFromUrl?: boolean;
+    includeResetStyle?: boolean;
+    playback?: {
+      preload?: string;
+      disableContextMenu?: boolean;
+      controls?: boolean;
+      crossOrigin?: string | null;
+      playInline?: boolean;
+      minimumDvrSize?: null | unknown;
+      externalTracks?: string[] | null;
+      hlsjsConfig?: unknown;
+      shakaConfiguration?: unknown;
+    };
+  };
+
+  type VClapprProps = {
+    el: string;
+    source: string;
+    options?: Options;
+  };
 
   export default defineComponent({
     name: 'VClappr',
@@ -69,14 +96,26 @@
         }),
       },
     },
-    setup(props: VClapprProps, { emit }: SetupContext) {
-      // Player Init Clappr Register Events
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const player: Ref<any> = ref(null);
+    emits: [
+      'init',
+      'ready',
+      'resize',
+      'play',
+      'pause',
+      'stop',
+      'ended',
+      'seek',
+      'error',
+      'time-updated',
+      'volume-updated',
+      'subtitle-available',
+    ],
+    setup(props: VClapprProps, { emit }) {
+      const player = ref(null);
 
       onMounted(async () => {
         await nextTick();
-        await initClapprPlayer();
+        await initPlayer();
       });
 
       onBeforeUnmount(() => {
@@ -84,16 +123,11 @@
         player.value = null;
       });
 
-      /**
-       * Initialize the clappr player
-       *
-       * @returns {Promise<void>}
-       */
-      function initClapprPlayer(): Promise<void> {
-        const DashShakaPlayback = require('dash-shaka-playback');
+      const initPlayer = () => {
         // Return a new promise
         return new Promise((resolve, reject) => {
           if (props.el) {
+            // const DashShakaPlayback = require('dash-shaka-playback');
             // New Player instance
             player.value = new Player({
               parentId: `#${props.el}`,
@@ -113,7 +147,7 @@
                 Stats,
                 WaterMark,
                 HlsjsPlayback,
-                DashShakaPlayback,
+                // DashShakaPlayback,
               ],
               ...props.options,
             });
@@ -158,12 +192,13 @@
                 allowUserInteraction: false,
               });
             });
-            resolve();
+            resolve('Player created!');
           } else {
             reject('Root element not found');
           }
         });
-      }
+      };
+
       return () => h('div', { attrs: { id: props.el } });
     },
   });
