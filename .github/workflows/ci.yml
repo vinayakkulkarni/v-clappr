@@ -36,9 +36,6 @@ jobs:
       - name: Install dependencies 🚀
         run: npm ci --prefer-offline --no-audit --omit=optional
 
-      - name: Run build 🏁
-        run: npm run build
-
       - name: Run linter(s) 👀
         uses: wearerequired/lint-action@v2
         with:
@@ -57,3 +54,6 @@ jobs:
 
       - name: Perform tests 🧪
         run: npm run test
+
+      - name: Run build 🏁
+        run: npm run build
