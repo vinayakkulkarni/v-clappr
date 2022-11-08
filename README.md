@@ -1,38 +1,38 @@
 # V-Clappr 🎥
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vinayakkulkarni/v-clappr/ci?logo=github-actions)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/ci.yml)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vinayakkulkarni/v-clappr/Ship%20js%20trigger?label=⛴%20Ship.js%20trigger)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/shipjs-trigger.yml)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vinayakkulkarni/v-clappr?sort=semver&logo=github)](https://github.com/vinayakkulkarni/v-clappr/releases)
-[![npm](https://img.shields.io/npm/v/v-clappr?logo=npm)](https://www.npmjs.com/package/v-clappr)
-[![npm](https://img.shields.io/npm/dm/v-clappr?logo=npm)](http://npm-stat.com/charts.html?package=v-clappr)
-[![npm bundle size (version)](https://img.shields.io/bundlephobia/min/v-clappr/latest)](https://bundlephobia.com/package/v-clappr@latest)
-[![npm type definitions](https://img.shields.io/npm/types/v-clappr)](https://github.com/vinayakkulkarni/v-clappr/blob/master/package.json)
+[![Continuous Integration](https://github.com/vinayakkulkarni/v-tweakpane/actions/workflows/ci.yml/badge.svg)](https://github.com/vinayakkulkarni/v-tweakpane/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/vinayakkulkarni/v-tweakpane/actions/workflows/codeql.yml/badge.svg)](https://github.com/vinayakkulkarni/v-tweakpane/actions/workflows/codeql.yml)
+[![Ship js trigger](https://github.com/vinayakkulkarni/v-tweakpane/actions/workflows/shipjs-trigger.yml/badge.svg)](https://github.com/vinayakkulkarni/v-tweakpane/actions/workflows/shipjs-trigger.yml)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vinayakkulkarni/v-tweakpane?sort=semver&logo=github)](https://github.com/vinayakkulkarni/v-tweakpane/releases)
+[![npm](https://img.shields.io/npm/v/v-tweakpane?logo=npm)](https://www.npmjs.com/package/v-tweakpane)
+[![npm](https://img.shields.io/npm/dm/v-tweakpane?logo=npm)](http://npm-stat.com/charts.html?package=v-tweakpane)
+[![npm (downloads)](https://img.shields.io/npm/dm/v-tweakpane.svg)](https://npm-stat.com/charts.html?package=v-tweakpane)
+[![npm bundle size (version)](https://img.shields.io/bundlephobia/min/v-tweakpane/latest)](https://bundlephobia.com/package/v-tweakpane@latest)
+[![npm type definitions](https://img.shields.io/npm/types/v-tweakpane)](https://github.com/vinayakkulkarni/v-tweakpane/blob/master/package.json)
 [![DeepScan grade](https://deepscan.io/api/teams/9055/projects/11603/branches/309654/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=9055&pid=11603&bid=309654)
-[![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/vinayakkulkarni/v-clappr)](https://snyk.io/test/github/vinayakkulkarni/v-clappr)
-[![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/vinayakkulkarni/v-clappr?logo=lgtm)](https://lgtm.com/projects/g/vinayakkulkarni/v-clappr/alerts/)
-[![LGTM Grade](https://img.shields.io/lgtm/grade/javascript/github/vinayakkulkarni/v-clappr?logo=lgtm)](https://lgtm.com/projects/g/vinayakkulkarni/v-clappr/context:javascript)
-[![GitHub contributors](https://img.shields.io/github/contributors/vinayakkulkarni/v-clappr)](https://github.com/vinayakkulkarni/v-clappr/graphs/contributors)
-[![FOSSA](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr?ref=badge_shield)
+[![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/vinayakkulkarni/v-tweakpane)](https://snyk.io/test/github/vinayakkulkarni/v-tweakpane)
+[![license](https://img.shields.io/npm/l/v-tweakpane)](https://github.com/vinayakkulkarni/v-tweakpane/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/vinayakkulkarni/v-tweakpane)](https://github.com/vinayakkulkarni/v-tweakpane/graphs/contributors)
 
-[![eslint](https://img.shields.io/npm/dependency-version/v-clappr/dev/eslint?logo=eslint)](https://eslint.org/)
-[![prettier](https://img.shields.io/npm/dependency-version/v-clappr/dev/prettier?logo=prettier)](https://prettier.io/)
-[![vite](https://img.shields.io/npm/dependency-version/v-clappr/dev/vite?logo=vite)](https://vitejs.dev/)
-[![vue](https://img.shields.io/npm/dependency-version/v-clappr/dev/vue?logo=vue.js)](https://vuejs.org/)
-[![typescript](https://img.shields.io/npm/dependency-version/v-clappr/dev/typescript?logo=TypeScript)](https://www.typescriptlang.org/)
-
+[![eslint](https://img.shields.io/npm/dependency-version/v-tweakpane/dev/eslint?logo=eslint)](https://eslint.org/)
+[![prettier](https://img.shields.io/npm/dependency-version/v-tweakpane/dev/prettier?logo=prettier)](https://prettier.io/)
+[![vite](https://img.shields.io/npm/dependency-version/v-tweakpane/dev/vite?logo=vite)](https://vitejs.dev/)
+[![vue](https://img.shields.io/npm/dependency-version/v-tweakpane/dev/vue?logo=vue.js)](https://vuejs.org/)
+[![typescript](https://img.shields.io/npm/dependency-version/v-tweakpane/dev/typescript?logo=TypeScript)](https://www.typescriptlang.org/)
 
 ---
+
 ## Features
 
 - Built with latest [`@clappr/core`](https://www.npmjs.com/package/@clappr/core)
 - Built from scratch using [TypeScript](https://www.typescriptlang.org)
-- For Vue 2.x version – `npm i v-clappr@2`
-- For Vue 3.x version – `npm i v-clappr@3`
+- Built for [Vue 3](https://vuejs.org) using [Vite](https://vitejs.dev)
 
 ---
-## Demo 
 
-[![Edit VClappr Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](http://bit.ly/v-clappr-2)
+## Demo
+
+[![Edit v-clappr](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/v-clappr?file=src/App.vue)
 
 ---
 
@@ -46,8 +46,6 @@
     - [Build Setup](#build-setup)
   - [Installation](#installation)
   - [Usage](#usage)
-    - [Globally](#globally)
-    - [Locally](#locally)
   - [Example(s)](#examples)
   - [API](#api)
     - [Props](#props)
@@ -55,7 +53,6 @@
   - [Contributing](#contributing)
   - [Author](#author)
   - [License](#license)
-
 
 ## Requirements
 
@@ -67,143 +64,180 @@
 
 ### Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm ci
 
 # package the library
 $ npm run build
 ```
+
 ## Installation
 
 ```bash
 $ npm install v-clappr --save
-$ npm install @clappr/core @clappr/plugins @clappr/hlsjs-playback dash-shaka-playback --save
-$ npm install @vue/composition-api --save-dev
+$ npm install @clappr/core @clappr/plugins @clappr/hlsjs-playback --save
 ```
-
-CDN: [UNPKG](https://unpkg.com/v-clappr/dist/) | [jsDelivr](https://cdn.jsdelivr.net/npm/v-clappr/dist/) (available as `window.VClappr`)
 
 ## Usage
 
-### Globally
-> As a component
-```javascript
+Global component:
+
+```js
+// main.ts
 import { VClappr } from 'v-clappr';
-Vue.component('VClappr', VClappr);
-```
-> As a plugin
-```javascript
-import VClappr from 'v-clappr';
-Vue.use(VClappr);
+import { createApp } from 'vue';
+
+const app = createApp({});
+app.component('VClappr', VClappr);
 ```
 
-### Locally
-> As a component
-```javascript
+Or use locally
+
+```js
+// component.vue
+<script lang="ts">
+import { defineComponent } from 'vue';
 import { VClappr } from 'v-clappr';
+
+export default defineComponent({
+  components: {
+    VClappr,
+  },
+});
+</script>
+```
+
+For Nuxt 3, create a file in `plugins/v-clappr.ts`
+
+```js
+import { VClappr } from 'v-clappr';
+
+export default defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.component('VClappr', VClappr);
+});
 ```
 
 ## Example(s)
 
 <details>
 <summary>
-<em>Example 1 (w/ all options – <a href="./examples/App.vue">refer App.vue</a>)</em>
+<em>Example 1 (w/ all options – <a href="./example/src/App.vue">refer App.vue</a>)</em>
 </summary>
 
 HTML
+
 ```html
-  <v-clappr
-    el="player"
-    :source="source"
-    :options="options"
-    @init="oninit"
-    @ready="onready"
-    @play="onplay"
-    @pause="onpause"
-    @stop="onstop"
-    @ended="onended"
-    @fullscreen="onfullscreen"
-    @resize="onresize"
-    @seek="onseek"
-    @timeupdate="ontimeupdate"
-    @volumeupdate="onvolumeupdate"
-    @error="onerror"
-  />
+<v-clappr
+  el="player"
+  :source="source"
+  :options="options"
+  @init="oninit"
+  @ready="onready"
+  @play="onplay"
+  @pause="onpause"
+  @stop="onstop"
+  @ended="onended"
+  @fullscreen="onfullscreen"
+  @resize="onresize"
+  @seek="onseek"
+  @timeupdate="ontimeupdate"
+  @volumeupdate="onvolumeupdate"
+  @error="onerror"
+/>
 ```
 
 JS
+
 ```javascript
+import { defineComponent, reactive } from 'vue';
 import { VClappr } from 'v-clappr';
 
-Vue.component('example-component', {
+export default defineComponent({
+  name: 'ClapprComponent',
   components: {
     VClappr,
   },
-  data: () => ({
-    source:'https://your.site/yourfile.mp4',
-    options: {
-      width: '100%',
-      height: '100%',
-      autoPlay: false,
-      mute: false,
-      loop: false,
-      language: 'en-US',
-      playbackNotSupportedMessage: 'Playback not supported',
-      autoSeekFromUrl: true,
-      includeResetStyle: true,
-      playback: {
-        preload: 'metadata',
-        disableContextMenu: true,
-        controls: false,
-        crossOrigin: null,
-        playInline: false,
-        minimumDvrSize: null,
-        externalTracks: [],
-        hlsjsConfig: {},
-        shakaConfiguration: {},
+  setup() {
+    const state = reactive({
+      clappr: null,
+      source: 'http://clappr.io/highline.mp4',
+      poster: 'http://clappr.io/poster.png',
+      options: {
+        width: '100%',
+        height: '100%',
+        autoPlay: false,
+        mute: false,
+        loop: false,
+        language: 'en-US',
+        playbackNotSupportedMessage: 'Playback not supported',
+        autoSeekFromUrl: true,
+        includeResetStyle: true,
+        playback: {
+          preload: 'metadata',
+          disableContextMenu: true,
+          controls: false,
+          crossOrigin: null,
+          playInline: false,
+          minimumDvrSize: null,
+          externalTracks: [],
+          hlsjsConfig: {},
+          shakaConfiguration: {},
+        },
       },
-      poster: 'https://picsum.photos/3840/2160',
-    },
-    clappr: null,
-  }),
-  methods: {
-    oninit(clappr) {
-      this.clappr = clappr;
-    },
-    onready(event) {
-      console.log('inside hook: onready', event);
-    },
-    onplay(event) {
-      console.log('inside hook: onplay', event);
-    },
-    onpause(event) {
-      console.log('inside hook: onpause', event);
-    },
-    onstop(event) {
-      console.log('inside hook: onstop', event);
-    },
-    onended(event) {
-      console.log('inside hook: onended', event);
-    },
-    onfullscreen(isBool) {
-      console.log('player fullscreen?', isBool);
-    },
-    onresize(resize) {
-      console.log('Resized object', resize);
-    },
-    onseek(time) {
-      console.log('on seek, time in seconds:', time);
-    },
-    ontimeupdate(progress) {
-      console.log('Progress of played video:', progress);
-    },
-    onvolumeupdate(volume) {
-      console.log('Volume updated, current volume:', volume);
-    },
-    onerror(e) {
-      console.log('le error:', e);
-    },
+    });
+    const onInit = (clappr: any) => {
+      state.clappr = clappr;
+    };
+    const onReady = (e: any) => {
+      console.log('onReady Event: ', e);
+    };
+    const onResize = (e: any) => {
+      console.log('onResize Event: ', e);
+    };
+    const onPlay = (e: any) => {
+      console.log('onPlay Event: ', e);
+    };
+    const onPause = (e: any) => {
+      console.log('onPause Event: ', e);
+    };
+    const onStop = (e: any) => {
+      console.log('onStop Event: ', e);
+    };
+    const onEnded = (e: any) => {
+      console.log('onEnded Event: ', e);
+    };
+    const onSeek = (e: any) => {
+      console.log('onSeek Event: ', e);
+    };
+    const onError = (e: any) => {
+      console.log('onError Event: ', e);
+    };
+    const onTimeUpdated = (e: any) => {
+      console.log('onTimeUpdate Event: ', e);
+    };
+    const onVolumeUpdated = (e: any) => {
+      console.log('onVolumeUpdate Event: ', e);
+    };
+    const onSubtitleAvailable = (e: any) => {
+      console.log('onSubtitleAvailable Event: ', e);
+    };
+
+    return {
+      state,
+      onInit,
+      onReady,
+      onResize,
+      onPlay,
+      onPause,
+      onStop,
+      onEnded,
+      onSeek,
+      onError,
+      onTimeUpdated,
+      onVolumeUpdated,
+      onSubtitleAvailable,
+    };
   },
 });
 ```
@@ -216,29 +250,36 @@ Vue.component('example-component', {
 </summary>
 
 HTML
+
 ```html
-  <v-clappr
-    el="mycustomid"
-    :source="source"
-  />
+<v-clappr el="my-custom-id" :source="source" />
 ```
+
 JS
+
 ```javascript
+import { defineComponent, ref } from 'vue';
 import { VClappr } from 'v-clappr';
 
-Vue.component('example-component', {
+export default defineComponent({
+  name: 'ClapprComponent',
   components: {
     VClappr,
   },
-  data: () => ({
-    source:'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-  }),
+  setup() {
+    const source = ref('http://clappr.io/highline.mp4');
+
+    return {
+      source,
+    };
+  },
 });
 ```
 
 </details>
 
 ## API
+
 ### Props
 
 | Name      | Type   | Required? | Description                                                                                                                                             |
@@ -263,7 +304,7 @@ Vue.component('example-component', {
 | `volume-updated`     | Emits an `Number` with current volume                  |
 | `subtitle-available` | Emits an `Boolean` value                               |
 
-## Contributing 
+## Contributing
 
 1. Fork it ( [https://github.com/vinayakkulkarni/v-clappr/fork](https://github.com/vinayakkulkarni/v-clappr/fork) )
 2. Create your feature branch (`git checkout -b feat/new-feature`)
@@ -271,11 +312,11 @@ Vue.component('example-component', {
 4. Push to the branch (`git push origin feat/new-feature`)
 5. Create a new [Pull Request](https://github.com/vinayakkulkarni/v-clappr/compare)
 
-_Note_: 
+_Note_:
+
 1. Please contribute using [GitHub Flow](https://web.archive.org/web/20191104103724/https://guides.github.com/introduction/flow/)
 2. Commits & PRs will be allowed only if the commit messages & PR titles follow the [conventional commit standard](https://www.conventionalcommits.org/), _read more about it [here](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional#type-enum)_
 3. PS. Ensure your commits are signed. _[Read why](https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html)_
-
 
 ## Author
 
@@ -284,6 +325,6 @@ Authored and maintained by Vinayak Kulkarni with help from contributors ([list](
 
 > [vinayakkulkarni.dev](https://vinayakkulkarni.dev) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
 
-
 ## License
+
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr?ref=badge_large)
