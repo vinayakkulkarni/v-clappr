@@ -1,3 +1,12 @@
+## [3.1.2](https://github.com/vinayakkulkarni/v-clappr/compare/v3.1.1...v3.1.2) (2022-11-08)
+
+
+### Bug Fixes
+
+* update docs with correct v-clappr version ([c9d1753](https://github.com/vinayakkulkarni/v-clappr/commit/c9d17538c244583bfcfd8a08699bb90b61a1d57d))
+
+
+
 ## [3.1.1](https://github.com/vinayakkulkarni/v-clappr/compare/v3.1.0...v3.1.1) (2022-11-08)
 
 
