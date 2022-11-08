@@ -1,2 +1,4 @@
+import VClappr from './components/VClappr.vue';
+
 export { default } from './install';
-export { default as VClappr } from './VClappr.vue';
+export { VClappr };

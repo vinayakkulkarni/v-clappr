@@ -1,12 +1,10 @@
+<template>
+  <div :id="el" />
+</template>
 <script lang="ts">
-  import {
-    h,
-    ref,
-    onMounted,
-    defineComponent,
-    onBeforeUnmount,
-    nextTick,
-  } from 'vue';
+  import { ref, onMounted, defineComponent, onBeforeUnmount } from 'vue';
+  import type { Ref } from 'vue';
+  // import * as DashShakaPlayback from 'dash-shaka-playback';
   import { Player } from '@clappr/core';
   import {
     ClickToPause,
@@ -48,7 +46,6 @@
       shakaConfiguration?: unknown;
     };
   };
-
   type VClapprProps = {
     el: string;
     source: string;
@@ -111,15 +108,14 @@
       'subtitle-available',
     ],
     setup(props: VClapprProps, { emit }) {
-      const player = ref(null);
+      const player: Ref<Player | null> = ref(null);
 
       onMounted(async () => {
-        await nextTick();
         await initPlayer();
       });
 
       onBeforeUnmount(() => {
-        player.value.destroy();
+        player.value?.destroy();
         player.value = null;
       });
 
@@ -133,14 +129,17 @@
               parentId: `#${props.el}`,
               source: props.source,
               plugins: [
-                ClickToPause,
+                MediaControl,
                 ClosedCaptions,
-                DVRControls,
                 EndVideo,
+                SpinnerThreeBounce,
+                WaterMark,
+                Stats,
+                ClickToPause,
+                DVRControls,
                 ErrorScreen,
                 Favicon,
                 GoogleAnalytics,
-                MediaControl,
                 Poster,
                 SeekTime,
                 SpinnerThreeBounce,
@@ -149,48 +148,42 @@
                 HlsjsPlayback,
                 // DashShakaPlayback,
               ],
-              ...props.options,
-            });
-            nextTick(() => {
-              emit('init', player.value);
-              player.value.configure({
-                events: {
-                  onReady: () => {
-                    emit('ready', player.value);
-                  },
-                  onResize: (e: { width: number; height: number }) => {
-                    emit('resize', e);
-                  },
-                  onPlay: () => {
-                    emit('play', true);
-                  },
-                  onPause: () => {
-                    emit('pause', true);
-                  },
-                  onStop: (e: boolean) => {
-                    emit('stop', e);
-                  },
-                  onEnded: () => {
-                    emit('ended', true);
-                  },
-                  onSeek: (e: number) => {
-                    emit('seek', e);
-                  },
-                  onError: (e: Error) => {
-                    emit('error', e);
-                  },
-                  onTimeUpdate: (e: { current: number; total: number }) => {
-                    emit('time-updated', e);
-                  },
-                  onVolumeUpdate: (e: number) => {
-                    emit('volume-updated', e);
-                  },
-                  onSubtitleAvailable: (e: boolean) => {
-                    emit('subtitle-available', e);
-                  },
+              events: {
+                onReady: (e: Player) => {
+                  emit('ready', e);
                 },
-                allowUserInteraction: false,
-              });
+                onResize: (e: { width: number; height: number }) => {
+                  emit('resize', e);
+                },
+                onPlay: () => {
+                  emit('play', true);
+                },
+                onPause: () => {
+                  emit('pause', true);
+                },
+                onStop: (e: boolean) => {
+                  emit('stop', e);
+                },
+                onEnded: () => {
+                  emit('ended', true);
+                },
+                onSeek: (e: number) => {
+                  emit('seek', e);
+                },
+                onError: (e: Error) => {
+                  emit('error', e);
+                },
+                onTimeUpdate: (e: { current: number; total: number }) => {
+                  emit('time-updated', e);
+                },
+                onVolumeUpdate: (e: number) => {
+                  emit('volume-updated', e);
+                },
+                onSubtitleAvailable: (e: boolean) => {
+                  emit('subtitle-available', e);
+                },
+              },
+              ...props.options,
             });
             resolve('Player created!');
           } else {
@@ -198,8 +191,6 @@
           }
         });
       };
-
-      return () => h('div', { attrs: { id: props.el } });
     },
   });
 </script>
