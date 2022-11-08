@@ -3,7 +3,7 @@ module.exports = {
   env: {
     browser: true,
     node: false,
-    es6: true,
+    es2021: true,
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',
@@ -16,7 +16,14 @@ module.exports = {
     },
     extraFileExtensions: ['.vue'],
   },
-  plugins: ['@typescript-eslint', 'import', 'jsdoc', 'prettier', 'security', 'vue'],
+  plugins: [
+    '@typescript-eslint',
+    'import',
+    'jsdoc',
+    'prettier',
+    'security',
+    'vue',
+  ],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:import/recommended',
