@@ -1,7 +1,6 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import dts from 'vite-plugin-dts';
 import pkg from './package.json';
 
 const banner = `/*!
@@ -13,11 +12,6 @@ const banner = `/*!
 `;
 
 export default defineConfig({
-  resolve: {
-    alias: {
-      Clappr: '@clappr/core/src/main.js',
-    },
-  },
   build: {
     target: 'esnext',
     sourcemap: true,
@@ -41,7 +35,6 @@ export default defineConfig({
         '@clappr/core',
         '@clappr/plugins',
         '@clappr/hlsjs-playback',
-        'dash-shaka-player',
       ],
       output: {
         banner,
@@ -63,11 +56,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [
-    vue(),
-    dts({
-      outputDir: ['dist'],
-      insertTypesEntry: true,
-    }),
-  ],
+  plugins: [vue()],
 });
