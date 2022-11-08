@@ -59,8 +59,7 @@
 - [Vue 3.x](https://vuejs.org/)
 - [@clappr/core](https://www.npmjs.com/package/@clappr/core)
 - [@clappr/plugins](https://www.npmjs.com/package/@clappr/core)
-- [@clappr/plugins](https://www.npmjs.com/package/@clappr/hlsjs-playback)
-<!-- - [dash-shaka-playback](https://www.npmjs.com/package/dash-shaka-playback) `^3.0.3` -->
+- [@clappr/hlsjs-playback](https://www.npmjs.com/package/@clappr/hlsjs-playback)
 
 ### Build Setup
 
@@ -75,8 +74,8 @@ $ npm run build
 ## Installation
 
 ```bash
-$ npm install v-clappr --save
-$ npm install @clappr/core @clappr/plugins @clappr/hlsjs-playback --save
+$ npm install v-clappr
+$ npm install @clappr/core @clappr/plugins @clappr/hlsjs-playback
 ```
 
 ## Usage
