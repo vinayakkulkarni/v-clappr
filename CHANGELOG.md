@@ -1,3 +1,20 @@
+# [3.1.0](https://github.com/vinayakkulkarni/v-clappr/compare/v3.0.0...v3.1.0) (2022-11-08)
+
+
+### Bug Fixes
+
+* correct package version ([38f0d57](https://github.com/vinayakkulkarni/v-clappr/commit/38f0d57a98c5c582678b1f9c83f78c6f47cd83fb))
+* remove unused `lgtm` config ([4a80096](https://github.com/vinayakkulkarni/v-clappr/commit/4a80096796aee5a3067f25cb2a8bd0c62c436c0a))
+* vite config ⚡️ ([a211f66](https://github.com/vinayakkulkarni/v-clappr/commit/a211f66f98cfe6e84f9734b908fc967e1e40acd1))
+
+
+### Features
+
+* add codeql workflow ([20a7dad](https://github.com/vinayakkulkarni/v-clappr/commit/20a7dad21f1a29add4b0345748b88905566a6fa5))
+* update tsconfig setting ([23f718f](https://github.com/vinayakkulkarni/v-clappr/commit/23f718f92beb84e752d26766287f025bd9164980))
+
+
+
 # [3.0.0](https://github.com/vinayakkulkarni/v-clappr/compare/v2.0.2...v3.0.0) (2022-10-28)
 
 
