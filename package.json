@@ -14,7 +14,7 @@
       "require": "./dist/v-clappr.umd.cjs"
     }
   },
-  "types": "dist/v-clapper.d.ts",
+  "types": "dist/index.d.ts",
   "type": "module",
   "files": [
     "dist"
