@@ -12,7 +12,7 @@
     "@clappr/core": "^0.4.25",
     "@clappr/hlsjs-playback": "^0.6.0",
     "@clappr/plugins": "^0.4.16",
-    "dash-shaka-playback": "^3.0.3",
+    "dash-shaka-playback": "^3.0.5",
     "v-clappr": "^3.1.2",
     "v-github-icon": "^3.0.2",
     "vue": "^3.2.45"
