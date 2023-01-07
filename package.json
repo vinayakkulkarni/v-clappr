@@ -40,7 +40,7 @@
     "@clappr/core": "^0.4.24",
     "@clappr/hlsjs-playback": "^0.6.0",
     "@clappr/plugins": "^0.4.16",
-    "dash-shaka-playback": "^3.0.3"
+    "dash-shaka-playback": "^3.0.5"
   },
   "devDependencies": {
     "@clappr/core": "^0.4.24",
@@ -53,7 +53,7 @@
     "@typescript-eslint/parser": "^5.47.1",
     "@vinayakkulkarni/prettier-config-vue": "^1.0.0",
     "@vitejs/plugin-vue": "^3.2.0",
-    "dash-shaka-playback": "^3.0.3",
+    "dash-shaka-playback": "^3.0.5",
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
