@@ -37,13 +37,13 @@
     "release:dry": "shipjs prepare --dry-run"
   },
   "peerDependencies": {
-    "@clappr/core": "^0.4.24",
+    "@clappr/core": "^0.4.27",
     "@clappr/hlsjs-playback": "^0.6.0",
     "@clappr/plugins": "^0.4.16",
     "dash-shaka-playback": "^3.0.5"
   },
   "devDependencies": {
-    "@clappr/core": "^0.4.24",
+    "@clappr/core": "^0.4.27",
     "@clappr/hlsjs-playback": "^0.6.0",
     "@clappr/plugins": "^0.4.16",
     "@commitlint/cli": "^17.4.2",
