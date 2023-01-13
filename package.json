@@ -55,7 +55,7 @@
     "@vitejs/plugin-vue": "^3.2.0",
     "dash-shaka-playback": "^3.0.5",
     "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsdoc": "^39.6.4",
     "eslint-plugin-prettier": "^4.2.1",
