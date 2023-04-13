@@ -1,3 +1,34 @@
+# [3.2.0](https://github.com/vinayakkulkarni/v-clappr/compare/v3.1.2...v3.2.0) (2023-04-13)
+
+
+### Bug Fixes
+
+* **deps:** bump @clappr/core from 0.4.22 to 0.4.23 in /example ([#981](https://github.com/vinayakkulkarni/v-clappr/issues/981)) ([06c3db0](https://github.com/vinayakkulkarni/v-clappr/commit/06c3db0e3f88280a44e400c7ace4454d4963bddc))
+* **deps:** bump @clappr/core from 0.4.23 to 0.4.24 in /example ([#998](https://github.com/vinayakkulkarni/v-clappr/issues/998)) ([b1148a3](https://github.com/vinayakkulkarni/v-clappr/commit/b1148a39242017d83e1dd06ad6c86b7f4117cff4))
+* **deps:** bump @clappr/core from 0.4.24 to 0.4.25 in /example ([#1013](https://github.com/vinayakkulkarni/v-clappr/issues/1013)) ([f0914a3](https://github.com/vinayakkulkarni/v-clappr/commit/f0914a351bb64deb284bccf09d3f4cd1ead4f47a))
+* **deps:** bump @clappr/core from 0.4.25 to 0.4.27 in /example ([#1024](https://github.com/vinayakkulkarni/v-clappr/issues/1024)) ([2ce717e](https://github.com/vinayakkulkarni/v-clappr/commit/2ce717e090c8906a99999328df3085479c3e1166))
+* **deps:** bump @clappr/hlsjs-playback from 0.6.0 to 1.0.1 in /example ([#1026](https://github.com/vinayakkulkarni/v-clappr/issues/1026)) ([d096168](https://github.com/vinayakkulkarni/v-clappr/commit/d096168ab22644f4f1243684b40eb860c4419ac0))
+* **deps:** bump amannn/action-semantic-pull-request from 5.0.2 to 5.1.0 ([#1064](https://github.com/vinayakkulkarni/v-clappr/issues/1064)) ([5417025](https://github.com/vinayakkulkarni/v-clappr/commit/54170258731e6867aef5a3ececd4d732cf091acd))
+* **deps:** bump amannn/action-semantic-pull-request from 5.1.0 to 5.2.0 ([#1113](https://github.com/vinayakkulkarni/v-clappr/issues/1113)) ([723788c](https://github.com/vinayakkulkarni/v-clappr/commit/723788cc30d32f80edff6cb81fbb40bed1f94046))
+* **deps:** bump dash-shaka-playback from 3.0.3 to 3.0.5 in /example ([#1004](https://github.com/vinayakkulkarni/v-clappr/issues/1004)) ([ccbee2f](https://github.com/vinayakkulkarni/v-clappr/commit/ccbee2f3b9e024a170b1e46d5ed0227b2fc27c5f))
+* **deps:** bump json5 from 1.0.1 to 1.0.2 ([#1015](https://github.com/vinayakkulkarni/v-clappr/issues/1015)) ([7fb914e](https://github.com/vinayakkulkarni/v-clappr/commit/7fb914e647bb2b79c63b69f708920b3bbef23d5f))
+* **deps:** bump peaceiris/actions-gh-pages from 3.9.0 to 3.9.1 ([#1012](https://github.com/vinayakkulkarni/v-clappr/issues/1012)) ([69a9c35](https://github.com/vinayakkulkarni/v-clappr/commit/69a9c359cc0c8ca3ddc38d3c3acbc5cb3d9fdc4f))
+* **deps:** bump peaceiris/actions-gh-pages from 3.9.1 to 3.9.2 ([#1034](https://github.com/vinayakkulkarni/v-clappr/issues/1034)) ([aaeb2b1](https://github.com/vinayakkulkarni/v-clappr/commit/aaeb2b1ff06e653179234ecb995dbeead3f87666))
+* **deps:** bump peaceiris/actions-gh-pages from 3.9.2 to 3.9.3 ([#1138](https://github.com/vinayakkulkarni/v-clappr/issues/1138)) ([c5ab6e2](https://github.com/vinayakkulkarni/v-clappr/commit/c5ab6e20cde9017c24f8ed81f7d7219d848bdae5))
+* **deps:** bump v-clappr from 3.1.1 to 3.1.2 in /example ([#920](https://github.com/vinayakkulkarni/v-clappr/issues/920)) ([86626b2](https://github.com/vinayakkulkarni/v-clappr/commit/86626b215ed3f27b89af79354f5ca0c701ebbbfa))
+* **deps:** bump vue from 3.2.41 to 3.2.44 in /example ([#925](https://github.com/vinayakkulkarni/v-clappr/issues/925)) ([f1760b6](https://github.com/vinayakkulkarni/v-clappr/commit/f1760b63b892e5fc09a3a26174380d66ee9d93fc))
+* **deps:** bump vue from 3.2.44 to 3.2.45 in /example ([#928](https://github.com/vinayakkulkarni/v-clappr/issues/928)) ([09d2e93](https://github.com/vinayakkulkarni/v-clappr/commit/09d2e93a028596dc6bb8ffec5274380702ca3391))
+* **deps:** bump vue from 3.2.45 to 3.2.47 in /example ([#1055](https://github.com/vinayakkulkarni/v-clappr/issues/1055)) ([2f17e85](https://github.com/vinayakkulkarni/v-clappr/commit/2f17e859a88d003160096553423e7d85c11caa42))
+* use `squash` merge ([80b58eb](https://github.com/vinayakkulkarni/v-clappr/commit/80b58eb4421766f8793767b734e61802fad836e2))
+
+
+### Features
+
+* add automerger workflow 🎉 ([b65d49e](https://github.com/vinayakkulkarni/v-clappr/commit/b65d49e971ad6a2ff43227a41d25b5d7dc534fcb))
+* **node:** pin to LTS version ([74be0cf](https://github.com/vinayakkulkarni/v-clappr/commit/74be0cfc2ebe3f63dfd26cf46419176d720ef944))
+
+
+
 ## [3.1.2](https://github.com/vinayakkulkarni/v-clappr/compare/v3.1.1...v3.1.2) (2022-11-08)
 
 
