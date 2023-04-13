@@ -1,8 +1,10 @@
-name: Ship js trigger
+name: 'Ship js trigger'
+
 on:
   pull_request:
     types:
       - closed
+
 jobs:
   build:
     name: Release
@@ -14,6 +16,11 @@ jobs:
         with:
           fetch-depth: 0
           ref: main
+
+      - name: Setup GitHub Actor
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
 
       - name: Setup node environment 📦
         uses: actions/setup-node@v3
