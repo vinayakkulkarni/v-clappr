@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@clappr/core": "^0.4.27",
+    "@clappr/core": "^0.7.0",
     "@clappr/hlsjs-playback": "^1.2.0",
     "@clappr/plugins": "^0.4.16",
     "dash-shaka-playback": "^3.2.0",
