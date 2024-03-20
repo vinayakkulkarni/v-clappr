@@ -1,3 +1,66 @@
+# [3.3.0](https://github.com/vinayakkulkarni/v-clappr/compare/v3.2.0...v3.3.0) (2024-03-20)
+
+
+### Bug Fixes
+
+* **deps:** Bump @antfu/utils from 0.7.2 to 0.7.4 in /example ([#1273](https://github.com/vinayakkulkarni/v-clappr/issues/1273)) ([dd02e9b](https://github.com/vinayakkulkarni/v-clappr/commit/dd02e9bf50e55137dcfaceb137a623e560c164f6))
+* **deps:** Bump @clappr/hlsjs-playback from 1.0.1 to 1.1.0 in /example ([#1249](https://github.com/vinayakkulkarni/v-clappr/issues/1249)) ([7d0ad56](https://github.com/vinayakkulkarni/v-clappr/commit/7d0ad56cff1489dfcb2e933c918feed09119b0d0))
+* **deps:** bump @clappr/hlsjs-playback from 1.1.0 to 1.2.0 in /example ([#1506](https://github.com/vinayakkulkarni/v-clappr/issues/1506)) ([86e5691](https://github.com/vinayakkulkarni/v-clappr/commit/86e5691b3bbc5c3c7f48087bb8c140bd4a36baa1))
+* **deps:** bump actions/setup-node from 3 to 4 ([#1483](https://github.com/vinayakkulkarni/v-clappr/issues/1483)) ([77dcea0](https://github.com/vinayakkulkarni/v-clappr/commit/77dcea0fc3b22a05b955bb38a5f4a1e144158262))
+* **deps:** bump actions/stale from 8 to 9 ([#1567](https://github.com/vinayakkulkarni/v-clappr/issues/1567)) ([797e242](https://github.com/vinayakkulkarni/v-clappr/commit/797e2429ca4e68f4b882b9c143c9477f00232456))
+* **deps:** bump amannn/action-semantic-pull-request from 5.2.0 to 5.3.0 ([#1447](https://github.com/vinayakkulkarni/v-clappr/issues/1447)) ([64654fd](https://github.com/vinayakkulkarni/v-clappr/commit/64654fdbf3ff2943bd246c994119e9f40184c533))
+* **deps:** bump amannn/action-semantic-pull-request from 5.3.0 to 5.4.0 ([#1501](https://github.com/vinayakkulkarni/v-clappr/issues/1501)) ([8082513](https://github.com/vinayakkulkarni/v-clappr/commit/8082513057aca10160f9d9077039349c97df9a30))
+* **deps:** Bump dash-shaka-playback from 3.0.5 to 3.1.0 in /example ([#1251](https://github.com/vinayakkulkarni/v-clappr/issues/1251)) ([c717ce7](https://github.com/vinayakkulkarni/v-clappr/commit/c717ce74d61b2bb574dc8ce31f5c54dfa78f7b0f))
+* **deps:** bump dash-shaka-playback from 3.1.0 to 3.2.0 in /example ([#1507](https://github.com/vinayakkulkarni/v-clappr/issues/1507)) ([a5824ca](https://github.com/vinayakkulkarni/v-clappr/commit/a5824ca5db32b9a78c215a69ace72928939b7d39))
+* **deps:** Bump dependabot/fetch-metadata from 1.3.6 to 1.4.0 ([#1166](https://github.com/vinayakkulkarni/v-clappr/issues/1166)) ([4ecf9b0](https://github.com/vinayakkulkarni/v-clappr/commit/4ecf9b0b34c90bd442d7ea6223c97548227b6d69))
+* **deps:** Bump dependabot/fetch-metadata from 1.4.0 to 1.5.0 ([#1254](https://github.com/vinayakkulkarni/v-clappr/issues/1254)) ([31feacc](https://github.com/vinayakkulkarni/v-clappr/commit/31feaccd5e904b5db3a262cd472558909fd7ad02))
+* **deps:** Bump dependabot/fetch-metadata from 1.5.0 to 1.5.1 ([#1259](https://github.com/vinayakkulkarni/v-clappr/issues/1259)) ([909f5ee](https://github.com/vinayakkulkarni/v-clappr/commit/909f5ee55b50341b2596daf533fc47cb7c5e96ad))
+* **deps:** bump dependabot/fetch-metadata from 1.5.1 to 1.6.0 ([#1318](https://github.com/vinayakkulkarni/v-clappr/issues/1318)) ([a69e136](https://github.com/vinayakkulkarni/v-clappr/commit/a69e1364a4b63e860546eadc2cca7d4713c889c9))
+* **deps:** bump github/codeql-action from 2 to 3 ([#1578](https://github.com/vinayakkulkarni/v-clappr/issues/1578)) ([4597920](https://github.com/vinayakkulkarni/v-clappr/commit/459792085ca18dd0fe7d69225a76febcefca92a5))
+* **deps:** bump postcss from 8.4.18 to 8.4.31 in /example ([#1458](https://github.com/vinayakkulkarni/v-clappr/issues/1458)) ([9bd19b5](https://github.com/vinayakkulkarni/v-clappr/commit/9bd19b5003797c9d73c43e362fd8535cd1d3f838))
+* **deps:** bump v-github-icon from 3.0.2 to 3.1.1 in /example ([#1160](https://github.com/vinayakkulkarni/v-clappr/issues/1160)) ([38fe67e](https://github.com/vinayakkulkarni/v-clappr/commit/38fe67e212ac8d912c13291bec161249c680a178))
+* **deps:** bump v-github-icon from 3.1.1 to 3.1.2 in /example ([#1587](https://github.com/vinayakkulkarni/v-clappr/issues/1587)) ([24bb725](https://github.com/vinayakkulkarni/v-clappr/commit/24bb7254e58bdd3b6409263cf8ae72751beeccfa))
+* **deps:** bump v-github-icon from 3.1.2 to 3.1.3 in /example ([#1632](https://github.com/vinayakkulkarni/v-clappr/issues/1632)) ([8d14684](https://github.com/vinayakkulkarni/v-clappr/commit/8d1468405608fd2d9419b3cf4d70bf36bdbf4cc3))
+* **deps:** Bump vue from 3.2.47 to 3.3.1 in /example ([#1228](https://github.com/vinayakkulkarni/v-clappr/issues/1228)) ([391d0ef](https://github.com/vinayakkulkarni/v-clappr/commit/391d0efdc96f73099a1adef6ca0af381b5f71bd8))
+* **deps:** Bump vue from 3.3.1 to 3.3.2 in /example ([#1234](https://github.com/vinayakkulkarni/v-clappr/issues/1234)) ([923a82a](https://github.com/vinayakkulkarni/v-clappr/commit/923a82a5aaa16af837a0d58f1bed101987ff900a))
+* **deps:** bump vue from 3.3.10 to 3.3.11 in /example ([#1572](https://github.com/vinayakkulkarni/v-clappr/issues/1572)) ([281c8b9](https://github.com/vinayakkulkarni/v-clappr/commit/281c8b9fb7e4d970b4dc7425b47dde5e5cc254aa))
+* **deps:** bump vue from 3.3.11 to 3.3.12 in /example ([#1583](https://github.com/vinayakkulkarni/v-clappr/issues/1583)) ([994c161](https://github.com/vinayakkulkarni/v-clappr/commit/994c161ebe24ca7c9dc479f8a2cd7a58ac7ecbd3))
+* **deps:** bump vue from 3.3.12 to 3.3.13 in /example ([#1585](https://github.com/vinayakkulkarni/v-clappr/issues/1585)) ([aeaa539](https://github.com/vinayakkulkarni/v-clappr/commit/aeaa539a9d8455325849117d43382bc8f7700d35))
+* **deps:** bump vue from 3.3.13 to 3.4.3 in /example ([#1593](https://github.com/vinayakkulkarni/v-clappr/issues/1593)) ([a13f6ff](https://github.com/vinayakkulkarni/v-clappr/commit/a13f6ff828e7fda919881f0ed0aaa9325975e827))
+* **deps:** Bump vue from 3.3.2 to 3.3.4 in /example ([#1250](https://github.com/vinayakkulkarni/v-clappr/issues/1250)) ([a2ba440](https://github.com/vinayakkulkarni/v-clappr/commit/a2ba440b342b76c57d41458d4c08c02687887da0))
+* **deps:** bump vue from 3.3.4 to 3.3.6 in /example ([#1482](https://github.com/vinayakkulkarni/v-clappr/issues/1482)) ([36eae6a](https://github.com/vinayakkulkarni/v-clappr/commit/36eae6abfbdfe89a8ca557acb9276a35a90c776a))
+* **deps:** bump vue from 3.3.6 to 3.3.7 in /example ([#1486](https://github.com/vinayakkulkarni/v-clappr/issues/1486)) ([d90d150](https://github.com/vinayakkulkarni/v-clappr/commit/d90d15097f5999b268f0ac29cd47959214d2812b))
+* **deps:** bump vue from 3.3.7 to 3.3.8 in /example ([#1505](https://github.com/vinayakkulkarni/v-clappr/issues/1505)) ([6647e66](https://github.com/vinayakkulkarni/v-clappr/commit/6647e6664f460451973097cc4b4cbf9ae35bb07f))
+* **deps:** bump vue from 3.3.8 to 3.3.9 in /example ([#1535](https://github.com/vinayakkulkarni/v-clappr/issues/1535)) ([73c44c2](https://github.com/vinayakkulkarni/v-clappr/commit/73c44c21e77e2ac6d39b84f414d45ed980f4e622))
+* **deps:** bump vue from 3.3.9 to 3.3.10 in /example ([#1558](https://github.com/vinayakkulkarni/v-clappr/issues/1558)) ([f3c294d](https://github.com/vinayakkulkarni/v-clappr/commit/f3c294d81c34cc819aa650363c05f82a44aba9e1))
+* **deps:** bump vue from 3.4.10 to 3.4.13 in /example ([#1617](https://github.com/vinayakkulkarni/v-clappr/issues/1617)) ([c0f4c38](https://github.com/vinayakkulkarni/v-clappr/commit/c0f4c38ecdbea3ef9d7cc612e791310228987b1f))
+* **deps:** bump vue from 3.4.13 to 3.4.14 in /example ([#1621](https://github.com/vinayakkulkarni/v-clappr/issues/1621)) ([061a381](https://github.com/vinayakkulkarni/v-clappr/commit/061a381c79a0ca84c231bf1a15685ea518afb272))
+* **deps:** bump vue from 3.4.14 to 3.4.15 in /example ([#1624](https://github.com/vinayakkulkarni/v-clappr/issues/1624)) ([c88d50f](https://github.com/vinayakkulkarni/v-clappr/commit/c88d50f42f05baff26b7566422c536dd51150c6a))
+* **deps:** bump vue from 3.4.15 to 3.4.16 in /example ([#1637](https://github.com/vinayakkulkarni/v-clappr/issues/1637)) ([00274ba](https://github.com/vinayakkulkarni/v-clappr/commit/00274baf8deae7765728dfa4afe7bb0ff55382ba))
+* **deps:** bump vue from 3.4.16 to 3.4.18 in /example ([#1642](https://github.com/vinayakkulkarni/v-clappr/issues/1642)) ([68309ee](https://github.com/vinayakkulkarni/v-clappr/commit/68309eebc7b2cd3108abc4190421647afba726f6))
+* **deps:** bump vue from 3.4.18 to 3.4.19 in /example ([#1646](https://github.com/vinayakkulkarni/v-clappr/issues/1646)) ([efe0110](https://github.com/vinayakkulkarni/v-clappr/commit/efe0110e618c3b46b58751dbd249893f99610269))
+* **deps:** bump vue from 3.4.19 to 3.4.20 in /example ([#1663](https://github.com/vinayakkulkarni/v-clappr/issues/1663)) ([588da56](https://github.com/vinayakkulkarni/v-clappr/commit/588da565edd6363aef394b86de17864057cd648f))
+* **deps:** bump vue from 3.4.20 to 3.4.21 in /example ([#1664](https://github.com/vinayakkulkarni/v-clappr/issues/1664)) ([0e89d38](https://github.com/vinayakkulkarni/v-clappr/commit/0e89d3876040b910f63ed52fca7ecdc7ec3de839))
+* **deps:** bump vue from 3.4.3 to 3.4.4 in /example ([#1596](https://github.com/vinayakkulkarni/v-clappr/issues/1596)) ([2bdfaa4](https://github.com/vinayakkulkarni/v-clappr/commit/2bdfaa4e9ee9890e63f05cee0922c6ba324a8f91))
+* **deps:** bump vue from 3.4.4 to 3.4.5 in /example ([#1597](https://github.com/vinayakkulkarni/v-clappr/issues/1597)) ([e3d6234](https://github.com/vinayakkulkarni/v-clappr/commit/e3d6234e378e82c610863fc12eac53f95c7a879f))
+* **deps:** bump vue from 3.4.5 to 3.4.6 in /example ([#1612](https://github.com/vinayakkulkarni/v-clappr/issues/1612)) ([b868c97](https://github.com/vinayakkulkarni/v-clappr/commit/b868c9793d1dde29d40f336a670d5415dc4a96ca))
+* **deps:** bump vue from 3.4.6 to 3.4.7 in /example ([#1614](https://github.com/vinayakkulkarni/v-clappr/issues/1614)) ([9710932](https://github.com/vinayakkulkarni/v-clappr/commit/9710932f9371f0cbb4c391e75c28d86b2b5af02b))
+* **deps:** bump vue from 3.4.7 to 3.4.8 in /example ([#1615](https://github.com/vinayakkulkarni/v-clappr/issues/1615)) ([94c2052](https://github.com/vinayakkulkarni/v-clappr/commit/94c20527ea084ff6bda74e4ca1a52226f3f0dbcb))
+* **deps:** bump vue from 3.4.8 to 3.4.10 in /example ([#1616](https://github.com/vinayakkulkarni/v-clappr/issues/1616)) ([2bfee1e](https://github.com/vinayakkulkarni/v-clappr/commit/2bfee1e6989fd4559733a7ff07a7bedd9e96975b))
+* enable grouping for examples ([c0118ce](https://github.com/vinayakkulkarni/v-clappr/commit/c0118ceafa6fee31eb1ab73f6c59d72c5daeefea))
+
+
+### Features
+
+* migration of shit 🧹 ([bae0d88](https://github.com/vinayakkulkarni/v-clappr/commit/bae0d88d1dc5aa2bceac653d11a45f944862c58e))
+
+
+### Reverts
+
+* add nvmrc ([a4d538a](https://github.com/vinayakkulkarni/v-clappr/commit/a4d538a2d29ea3f9d68989c104fa74349c076519))
+
+
+
 # [3.2.0](https://github.com/vinayakkulkarni/v-clappr/compare/v3.1.2...v3.2.0) (2023-04-13)
 
 
