@@ -1,0 +1,8 @@
+{
+  "name": "@vinayakkulkarni/v-clappr",
+  "version": "3.2.0",
+  "exports": "./dist/v-clappr.js",
+  "publish": {
+    "exclude": ["!dist"]
+  }
+}

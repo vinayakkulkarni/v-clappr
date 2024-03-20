@@ -36,6 +36,7 @@
   </main>
 </template>
 <script lang="ts">
+  /* eslint-disable @typescript-eslint/no-explicit-any */
   import { defineComponent, reactive } from 'vue';
   import { VGithubIcon } from 'v-github-icon';
   import { VClappr } from 'v-clappr';
