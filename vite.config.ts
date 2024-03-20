@@ -40,7 +40,6 @@ export default defineConfig({
         banner,
         exports: 'named',
         strict: true,
-        sourcemap: true,
         extend: true,
         globals: {
           vue: 'vue',
