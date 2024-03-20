@@ -50,7 +50,7 @@
     setup() {
       const state = reactive({
         clappr: null,
-        source: 'http://clappr.io/highline.mp4',
+        source: 'https://download.samplelib.com/mp4/sample-30s.mp4',
         poster: 'http://clappr.io/poster.png',
         options: {
           width: '100%',
