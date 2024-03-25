@@ -6,7 +6,11 @@
 # https://github.com/github/super-linter
 name: Lint Code Base
 
-on: [pull_request]
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
 
 concurrency:
   group: lint-${{ github.ref }}
