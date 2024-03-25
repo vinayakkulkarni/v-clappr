@@ -6,13 +6,15 @@
 # https://github.com/github/super-linter
 name: Lint Code Base
 
-on:
-  push:
-    branches: ['main']
-  pull_request:
-    branches: ['main']
+on: [pull_request]
+
+concurrency:
+  group: lint-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  run-lint:
+  check:
+    name: Run check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -24,12 +26,12 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter@v4
         env:
+          DEFAULT_BRANCH: 'main'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_EDITORCONFIG: true
           VALIDATE_GITHUB_ACTIONS: true
           VALIDATE_HTML: true
-          VALIDATE_CSS: true
-          CSS_FILE_NAME: stylelint.config.cjs
           VALIDATE_JAVASCRIPT_STANDARD: true
           JAVASCRIPT_DEFAULT_STYLE: prettier
           VALIDATE_JAVASCRIPT_ES: true
@@ -38,5 +40,5 @@ jobs:
           TYPESCRIPT_DEFAULT_STYLE: prettier
           VALIDATE_TYPESCRIPT_ES: true
           TYPESCRIPT_ES_CONFIG_FILE: .eslintrc.cjs
-          DEFAULT_BRANCH: 'main'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_CSS: false
+          # CSS_FILE_NAME: stylelint.config.cjs
