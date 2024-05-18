@@ -7,3 +7,15 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>;
   export default component;
 }
+declare module '@clappr/core' {
+  export type PlayerOptions = {
+    parentId: string;
+    [key: string]: unknown;
+  };
+
+  export class Player {
+    constructor(options: PlayerOptions);
+    destroy(): void;
+    configure(options: PlayerOptions): void;
+  }
+}

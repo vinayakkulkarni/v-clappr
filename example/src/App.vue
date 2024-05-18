@@ -1,3 +1,72 @@
+<script setup lang="ts">
+  import { reactive } from 'vue';
+  import { VGithubIcon } from 'v-github-icon';
+  import { VClappr } from 'v-clappr';
+  import type { Player } from '@clappr/core';
+
+  const state = reactive({
+    clappr: null as Player | null,
+    source: 'https://download.samplelib.com/mp4/sample-30s.mp4',
+    poster: 'http://clappr.io/poster.png',
+    options: {
+      width: '100%',
+      height: '100%',
+      autoPlay: false,
+      mute: false,
+      loop: false,
+      language: 'en-US',
+      playbackNotSupportedMessage: 'Playback not supported',
+      autoSeekFromUrl: true,
+      includeResetStyle: true,
+      playback: {
+        preload: 'metadata',
+        disableContextMenu: true,
+        controls: false,
+        crossOrigin: null,
+        playInline: false,
+        minimumDvrSize: null,
+        externalTracks: [],
+        hlsjsConfig: {},
+        shakaConfiguration: {},
+      },
+    },
+  });
+  const onInit = (player: Player) => {
+    console.log('onInit Event: ', player);
+    state.clappr = player;
+  };
+  const onResize = (e: { width: number; height: number }) => {
+    console.log('onResize Event: ', e);
+  };
+  const onPlay = (e: boolean) => {
+    console.log('onPlay Event: ', e);
+  };
+  const onPause = (e: boolean) => {
+    console.log('onPause Event: ', e);
+  };
+  const onStop = (e: boolean) => {
+    console.log('onStop Event: ', e);
+  };
+  const onEnded = (e: boolean) => {
+    console.log('onEnded Event: ', e);
+  };
+  const onSeek = (e: number) => {
+    console.log('onSeek Event: ', e);
+  };
+  const onError = (e: Error) => {
+    console.log('onError Event: ', e);
+  };
+  const onTimeUpdated = (e: { current: number; total: number }) => {
+    console.log('onTimeUpdate Event: ', e);
+  };
+  const onVolumeUpdated = (e: number) => {
+    console.log('onVolumeUpdate Event: ', e);
+  };
+  const onSubtitleAvailable = (e: boolean) => {
+    console.log('onSubtitleAvailable Event: ', e);
+  };
+</script>
+
 <template>
   <main class="w-screen h-screen bg-gradient-49">
     <v-github-icon url="https://github.com/vinayakkulkarni/v-clappr" />
@@ -7,7 +76,6 @@
       :options="state.options"
       class="mx-auto w-1/2 h-full"
       @init="onInit"
-      @ready="onReady"
       @resize="onResize"
       @play="onPlay"
       @pause="onPause"
@@ -35,102 +103,7 @@
     </div>
   </main>
 </template>
-<script lang="ts">
-  /* eslint-disable @typescript-eslint/no-explicit-any */
-  import { defineComponent, reactive } from 'vue';
-  import { VGithubIcon } from 'v-github-icon';
-  import { VClappr } from 'v-clappr';
 
-  export default defineComponent({
-    name: 'ExampleApp',
-    components: {
-      VClappr,
-      VGithubIcon,
-    },
-    setup() {
-      const state = reactive({
-        clappr: null,
-        source: 'https://download.samplelib.com/mp4/sample-30s.mp4',
-        poster: 'http://clappr.io/poster.png',
-        options: {
-          width: '100%',
-          height: '100%',
-          autoPlay: false,
-          mute: false,
-          loop: false,
-          language: 'en-US',
-          playbackNotSupportedMessage: 'Playback not supported',
-          autoSeekFromUrl: true,
-          includeResetStyle: true,
-          playback: {
-            preload: 'metadata',
-            disableContextMenu: true,
-            controls: false,
-            crossOrigin: null,
-            playInline: false,
-            minimumDvrSize: null,
-            externalTracks: [],
-            hlsjsConfig: {},
-            shakaConfiguration: {},
-          },
-        },
-      });
-      const onInit = (clappr: any) => {
-        state.clappr = clappr;
-      };
-      const onReady = (e: any) => {
-        console.log('onReady Event: ', e);
-      };
-      const onResize = (e: any) => {
-        console.log('onResize Event: ', e);
-      };
-      const onPlay = (e: any) => {
-        console.log('onPlay Event: ', e);
-      };
-      const onPause = (e: any) => {
-        console.log('onPause Event: ', e);
-      };
-      const onStop = (e: any) => {
-        console.log('onStop Event: ', e);
-      };
-      const onEnded = (e: any) => {
-        console.log('onEnded Event: ', e);
-      };
-      const onSeek = (e: any) => {
-        console.log('onSeek Event: ', e);
-      };
-      const onError = (e: any) => {
-        console.log('onError Event: ', e);
-      };
-      const onTimeUpdated = (e: any) => {
-        console.log('onTimeUpdate Event: ', e);
-      };
-      const onVolumeUpdated = (e: any) => {
-        console.log('onVolumeUpdate Event: ', e);
-      };
-      const onSubtitleAvailable = (e: any) => {
-        console.log('onSubtitleAvailable Event: ', e);
-      };
-
-      return {
-        state,
-        onInit,
-        onReady,
-        onResize,
-        onPlay,
-        onPause,
-        onStop,
-        onEnded,
-        onSeek,
-        onError,
-        onTimeUpdated,
-        onVolumeUpdated,
-        onSubtitleAvailable,
-      };
-    },
-  });
-</script>
-
-<style>
+<style scoped>
   @import 'v-github-icon/dist/v-github-icon.css';
 </style>
