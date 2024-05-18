@@ -43,14 +43,9 @@ export default defineConfig({
         extend: true,
         globals: {
           vue: 'vue',
-          clappr: 'clappr',
           '@clappr/core': 'core',
           '@clappr/plugins': 'plugins',
           '@clappr/hlsjs-playback': 'HlsjsPlayback',
-        },
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name === 'style.css') return 'v-clappr.css';
-          return assetInfo.name;
         },
       },
     },

@@ -7,6 +7,6 @@ declare module '@clappr/core' {
   export class Player {
     constructor(options: PlayerOptions);
     destroy(): void;
-    configure(options: unknown): void;
+    configure(options: PlayerOptions): void;
   }
 }
