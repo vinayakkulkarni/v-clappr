@@ -1,3 +1,34 @@
+# [3.4.0](https://github.com/vinayakkulkarni/v-clappr/compare/v3.3.0...v3.4.0) (2024-05-18)
+
+
+### Bug Fixes
+
+* **deps:** bump amannn/action-semantic-pull-request ([#1765](https://github.com/vinayakkulkarni/v-clappr/issues/1765)) ([b6049ef](https://github.com/vinayakkulkarni/v-clappr/commit/b6049ef230437f574748e53665b02f3699bf8bdd))
+* **deps:** bump dependabot/fetch-metadata from 1.7.0 to 2.0.0 ([#1704](https://github.com/vinayakkulkarni/v-clappr/issues/1704)) ([89b3dd2](https://github.com/vinayakkulkarni/v-clappr/commit/89b3dd2c1dd5d090e81e9c32b8c5c345359544aa))
+* **deps:** bump github/super-linter from 4 to 5 ([#1706](https://github.com/vinayakkulkarni/v-clappr/issues/1706)) ([22dd7e3](https://github.com/vinayakkulkarni/v-clappr/commit/22dd7e342cfeaa8a65f9401340acec807800e1a2))
+* **deps:** bump github/super-linter from 5 to 6 ([#1766](https://github.com/vinayakkulkarni/v-clappr/issues/1766)) ([d0b7e1b](https://github.com/vinayakkulkarni/v-clappr/commit/d0b7e1b85d522bd48e3bfd2b45e59dc198bd644a))
+* **deps:** bump peaceiris/actions-gh-pages from 3.9.3 to 4.0.0 ([#1733](https://github.com/vinayakkulkarni/v-clappr/issues/1733)) ([d3f30e2](https://github.com/vinayakkulkarni/v-clappr/commit/d3f30e2ff50bfb2db4724fccc14c218193027abd))
+* **deps:** bump the actions-minor group with 1 update ([#1696](https://github.com/vinayakkulkarni/v-clappr/issues/1696)) ([786c76f](https://github.com/vinayakkulkarni/v-clappr/commit/786c76faf9c90e92edd74918a853d035a40b3076))
+* **deps:** bump the actions-minor group with 2 updates ([#1769](https://github.com/vinayakkulkarni/v-clappr/issues/1769)) ([33441b7](https://github.com/vinayakkulkarni/v-clappr/commit/33441b78d0f95f7b9c8dfd0bca9b2a1d78249b53))
+* **deps:** bump unocss from 0.58.9 to 0.59.0 in /example ([#1730](https://github.com/vinayakkulkarni/v-clappr/issues/1730)) ([e397cbd](https://github.com/vinayakkulkarni/v-clappr/commit/e397cbdff82c9b9492b2987a05165fd73f02449a))
+* **deps:** bump unocss from 0.59.4 to 0.60.0 in /example ([#1788](https://github.com/vinayakkulkarni/v-clappr/issues/1788)) ([fcba445](https://github.com/vinayakkulkarni/v-clappr/commit/fcba445d0c4dc96c03c723a5d94c30a5faa98ff8))
+* **deps:** update @clappr/hlsjs-playback requirement from ^1.2.0 to ^1.3.0 in /example ([#1705](https://github.com/vinayakkulkarni/v-clappr/issues/1705)) ([0df3dad](https://github.com/vinayakkulkarni/v-clappr/commit/0df3dad8f4c56bc0cdf4f768c51d1ddefe1315c1))
+* **deps:** update unocss requirement from ^0.58.6 to ^0.58.8 in /example ([#1711](https://github.com/vinayakkulkarni/v-clappr/issues/1711)) ([a0e79d1](https://github.com/vinayakkulkarni/v-clappr/commit/a0e79d16062a363bfe0546492422bba9363a338a))
+* **deps:** update unocss requirement from ^0.58.8 to ^0.58.9 in /example ([#1717](https://github.com/vinayakkulkarni/v-clappr/issues/1717)) ([13b4c29](https://github.com/vinayakkulkarni/v-clappr/commit/13b4c295fd4f7dc5bae3b3c1942c4625ab253395))
+* **deps:** update unocss requirement from ^0.59.0 to ^0.59.2 in /example ([#1742](https://github.com/vinayakkulkarni/v-clappr/issues/1742)) ([0d66898](https://github.com/vinayakkulkarni/v-clappr/commit/0d6689889671bf017f42934a2d4a1673e6802697))
+* **deps:** update unocss requirement from ^0.59.2 to ^0.59.4 in /example ([#1752](https://github.com/vinayakkulkarni/v-clappr/issues/1752)) ([8fe7c49](https://github.com/vinayakkulkarni/v-clappr/commit/8fe7c49e27a28064216c53f84dee272bfa2446dc))
+* **deps:** update v-github-icon requirement from ^3.1.3 to ^3.2.1 in /example ([#1691](https://github.com/vinayakkulkarni/v-clappr/issues/1691)) ([8c1a4d4](https://github.com/vinayakkulkarni/v-clappr/commit/8c1a4d46158873984c64303bebdee42d3e097051))
+* **deps:** update vue requirement from ^3.4.21 to ^3.4.23 in /example ([#1750](https://github.com/vinayakkulkarni/v-clappr/issues/1750)) ([4069525](https://github.com/vinayakkulkarni/v-clappr/commit/4069525b6f5c802f3981fb8b7860e4e0520bf759))
+* **deps:** update vue requirement from ^3.4.23 to ^3.4.26 in /example ([#1770](https://github.com/vinayakkulkarni/v-clappr/issues/1770)) ([0bcc595](https://github.com/vinayakkulkarni/v-clappr/commit/0bcc595ca556856564b8f32c8c2dde1302dd3901))
+* **deps:** update vue requirement from ^3.4.26 to ^3.4.27 in /example ([#1785](https://github.com/vinayakkulkarni/v-clappr/issues/1785)) ([bd59476](https://github.com/vinayakkulkarni/v-clappr/commit/bd5947689393096dbb3916e92b21a858cea66db5))
+
+
+### Features
+
+* add support for super-linter ([93ee29a](https://github.com/vinayakkulkarni/v-clappr/commit/93ee29ac557f436f693d5af2235320aa199c18ff))
+
+
+
 # [3.3.0](https://github.com/vinayakkulkarni/v-clappr/compare/v3.2.0...v3.3.0) (2024-03-20)
 
 
