@@ -65,7 +65,7 @@
     "eslint-plugin-vue": "^9.26.0",
     "husky": "^9.0.11",
     "is-ci": "^3.0.1",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.2.4",
     "prettier": "^3.2.5",
     "sass": "^1.77.2",
     "shipjs": "^0.26.3",
