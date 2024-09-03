@@ -40,13 +40,13 @@
     "@clappr/core": "0.4.27",
     "@clappr/hlsjs-playback": "1.4.0",
     "@clappr/plugins": "0.5.0",
-    "vue": "^3.4.35"
+    "vue": "^3.5.0"
   },
   "dependencies": {
     "@clappr/core": "0.4.27",
     "@clappr/hlsjs-playback": "1.4.0",
     "@clappr/plugins": "0.5.0",
-    "vue": "^3.4.35"
+    "vue": "^3.5.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
