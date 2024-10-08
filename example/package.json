@@ -12,7 +12,7 @@
     "@clappr/core": "0.4.27",
     "@clappr/hlsjs-playback": "1.6.0",
     "@clappr/plugins": "0.7.1",
-    "unocss": "^0.62.4",
+    "unocss": "^0.63.4",
     "v-clappr": "^3.4.0",
     "v-github-icon": "^3.2.2",
     "vue": "^3.5.6"
