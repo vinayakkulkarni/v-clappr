@@ -37,13 +37,13 @@
     "release:dry": "shipjs prepare --dry-run"
   },
   "peerDependencies": {
-    "@clappr/core": "0.4.27",
+    "@clappr/core": "0.10.0",
     "@clappr/hlsjs-playback": "1.6.0",
     "@clappr/plugins": "0.7.1",
     "vue": "^3.5.6"
   },
   "dependencies": {
-    "@clappr/core": "0.4.27",
+    "@clappr/core": "0.10.0",
     "@clappr/hlsjs-playback": "1.6.0",
     "@clappr/plugins": "0.7.1",
     "vue": "^3.5.6"
