@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@clappr/core": "0.4.27",
+    "@clappr/core": "0.11.2",
     "@clappr/hlsjs-playback": "1.6.0",
     "@clappr/plugins": "0.7.1",
     "unocss": "^0.62.4",
