@@ -15,7 +15,7 @@
     "unocss": "^0.63.6",
     "v-clappr": "^3.4.0",
     "v-github-icon": "^3.2.2",
-    "vue": "^3.5.6"
+    "vue": "^3.5.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
