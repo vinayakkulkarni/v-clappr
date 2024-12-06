@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clappr/core": "0.4.27",
-    "@clappr/hlsjs-playback": "1.7.2",
+    "@clappr/hlsjs-playback": "1.7.3",
     "@clappr/plugins": "0.7.1",
     "unocss": "^0.63.6",
     "v-clappr": "^3.4.0",
