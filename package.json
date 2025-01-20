@@ -39,13 +39,13 @@
   "peerDependencies": {
     "@clappr/core": "0.4.27",
     "@clappr/hlsjs-playback": "1.7.4",
-    "@clappr/plugins": "0.7.1",
+    "@clappr/plugins": "0.8.5",
     "vue": "^3.5.13"
   },
   "dependencies": {
     "@clappr/core": "0.4.27",
     "@clappr/hlsjs-playback": "1.7.4",
-    "@clappr/plugins": "0.7.1",
+    "@clappr/plugins": "0.8.5",
     "vue": "^3.5.13"
   },
   "devDependencies": {
