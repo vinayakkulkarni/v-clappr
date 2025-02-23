@@ -74,7 +74,7 @@
     "stylelint-prettier": "^5.0.3",
     "typescript": "^5.7.3",
     "vite": "^6.1.1",
-    "vue-tsc": "^2.2.2"
+    "vue-tsc": "^2.2.4"
   },
   "keywords": [
     "Vue.js",
