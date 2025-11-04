@@ -13,7 +13,12 @@ const banner = `/*!
 
 export default defineConfig({
   input: resolve(__dirname, 'src/index.ts'),
-  external: ['vue', '@clappr/core', '@clappr/plugins', '@clappr/hlsjs-playback'],
+  external: [
+    'vue',
+    '@clappr/core',
+    '@clappr/plugins',
+    '@clappr/hlsjs-playback',
+  ],
   output: [
     {
       file: `dist/${pkg.name}.js`,
