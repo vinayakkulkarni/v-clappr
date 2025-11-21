@@ -17,7 +17,7 @@
 
 [![built using janak](https://img.shields.io/badge/built%20using-janak-brightgreen)](https://github.com/vinayakkulkarni/janak)
 [![vue](https://img.shields.io/npm/dependency-version/v-clappr/dev/vue?logo=vue.js)](https://vuejs.org/)
-[![vite](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/vite?logo=vite)](https://vitejs.dev)
+[![rolldown](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/rolldown)](https://rolldown.rs)
 [![eslint](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/eslint?logo=eslint)](https://eslint.org/)
 [![prettier](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/prettier?logo=prettier)](https://prettier.io/)
 [![typescript](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/typescript?logo=TypeScript)](https://www.typescriptlang.org/)
@@ -29,7 +29,7 @@
 
 - Built with latest [`@clappr/core`](https://www.npmjs.com/package/@clappr/core)
 - Built from scratch using [TypeScript](https://www.typescriptlang.org)
-- Built for [Vue 3](https://vuejs.org) using [Vite](https://vitejs.dev)
+- Built for [Vue 3](https://vuejs.org) using [Rolldown](https://rolldown.rs)
 
 ---
 

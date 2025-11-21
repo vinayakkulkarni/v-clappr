@@ -20,7 +20,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly && prettier --write dist/*{cjs,js,ts}",
+    "build": "rolldown --config rolldown.config.ts && vue-tsc --declaration --emitDeclarationOnly && prettier --write dist/*{cjs,js,ts}",
     "test": "echo 'test!'",
     "prepare": "is-ci || husky",
     "lint": "bun run lint:prettier && bun run lint:eslint && bun run lint:css",
@@ -55,7 +55,6 @@
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^8.32.1",
     "@vinayakkulkarni/prettier-config-vue": "^1.0.0",
-    "@vitejs/plugin-vue": "^5.2.4",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-import": "^2.31.0",
@@ -67,13 +66,14 @@
     "is-ci": "^4.1.0",
     "lint-staged": "^16.1.5",
     "prettier": "^3.6.2",
+    "rolldown": "^1.0.0-beta.46",
     "sass": "^1.88.0",
     "shipjs": "^0.27.0",
     "stylelint": "^16.23.1",
     "stylelint-config-recommended-vue": "^1.6.1",
     "stylelint-prettier": "^5.0.3",
     "typescript": "^5.9.2",
-    "vite": "^7.1.1",
+    "unplugin-vue": "^5.2.1",
     "vue-tsc": "^3.0.5"
   },
   "keywords": [
