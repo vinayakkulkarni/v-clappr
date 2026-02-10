@@ -123,6 +123,14 @@
 
 
 
+## [3.4.2](https://github.com/vinayakkulkarni/v-clappr/compare/v-clappr-v3.4.1...v-clappr-v3.4.2) (2026-02-10)
+
+
+### Miscellaneous
+
+* **deps-dev:** update @types/node requirement from ^25.2.1 to ^25.2.2 ([#2570](https://github.com/vinayakkulkarni/v-clappr/issues/2570)) ([4f7c7e0](https://github.com/vinayakkulkarni/v-clappr/commit/4f7c7e009aa19d1ee056467f16261ab0ce3a9f70))
+* **deps-dev:** update @types/node requirement from ^25.2.2 to ^25.2.3 ([#2573](https://github.com/vinayakkulkarni/v-clappr/issues/2573)) ([966d38e](https://github.com/vinayakkulkarni/v-clappr/commit/966d38ed001f0651d61d2eada3f47ee7ddd05160))
+
 ## [3.4.1](https://github.com/vinayakkulkarni/v-clappr/compare/v-clappr-v3.4.0...v-clappr-v3.4.1) (2026-02-07)
 
 
