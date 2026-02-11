@@ -11,7 +11,7 @@
   "dependencies": {
     "@clappr/core": "0.11.5",
     "@clappr/hlsjs-playback": "1.8.3",
-    "@clappr/plugins": "0.8.7",
+    "@clappr/plugins": "0.8.11",
     "unocss": "^66.1.0",
     "v-clappr": "^3.4.0",
     "v-github-icon": "^3.2.2",
