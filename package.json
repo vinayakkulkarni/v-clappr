@@ -1,7 +1,7 @@
 {
   "name": "v-clappr",
   "description": "Vue.js wrapper for Clappr",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "exports": {
     ".": {
       "import": "./dist/v-clappr.js",
