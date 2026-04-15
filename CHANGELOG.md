@@ -123,6 +123,54 @@
 
 
 
+## [3.4.2](https://github.com/vinayakkulkarni/v-clappr/compare/v-clappr-v3.4.1...v-clappr-v3.4.2) (2026-04-15)
+
+
+### Bug Fixes
+
+* **deps:** bump @clappr/plugins ([#2465](https://github.com/vinayakkulkarni/v-clappr/issues/2465)) ([04f3d27](https://github.com/vinayakkulkarni/v-clappr/commit/04f3d2773534e05ba3452e04e193b11f8eb25a69))
+* **deps:** bump actions/setup-node from 4 to 6 ([#2601](https://github.com/vinayakkulkarni/v-clappr/issues/2601)) ([1b7d8c0](https://github.com/vinayakkulkarni/v-clappr/commit/1b7d8c0b0092cb54885233c9c8202ecdc13e87c2))
+* **deps:** bump dependabot/fetch-metadata from 2.4.0 to 3.0.0 ([#2602](https://github.com/vinayakkulkarni/v-clappr/issues/2602)) ([be7bebe](https://github.com/vinayakkulkarni/v-clappr/commit/be7bebe60287a046b750fcb34fa5fd0a4a509dd7))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump typescript from 5.9.3 to 6.0.2 ([#2594](https://github.com/vinayakkulkarni/v-clappr/issues/2594)) ([8305271](https://github.com/vinayakkulkarni/v-clappr/commit/8305271ede3b6ed42e40c88441d09f19d0f696b2))
+* **deps-dev:** bump typescript from 5.9.3 to 6.0.2 in /example ([#2596](https://github.com/vinayakkulkarni/v-clappr/issues/2596)) ([6212b3f](https://github.com/vinayakkulkarni/v-clappr/commit/6212b3f9d90da5aff7f44f3e96051c2773f02e67))
+* **deps-dev:** bump vite from 7.3.1 to 8.0.0 ([#2587](https://github.com/vinayakkulkarni/v-clappr/issues/2587)) ([a0219ac](https://github.com/vinayakkulkarni/v-clappr/commit/a0219ac242f6c92e2479803ff549224e6f674b6f))
+* **deps-dev:** bump vite from 7.3.1 to 8.0.0 in /example ([#2588](https://github.com/vinayakkulkarni/v-clappr/issues/2588)) ([e1db1f5](https://github.com/vinayakkulkarni/v-clappr/commit/e1db1f59f7e35102502145ef9504414e10e178b8))
+* **deps-dev:** update @types/node requirement from ^25.2.1 to ^25.2.2 ([#2570](https://github.com/vinayakkulkarni/v-clappr/issues/2570)) ([4f7c7e0](https://github.com/vinayakkulkarni/v-clappr/commit/4f7c7e009aa19d1ee056467f16261ab0ce3a9f70))
+* **deps-dev:** update @types/node requirement from ^25.2.2 to ^25.2.3 ([#2573](https://github.com/vinayakkulkarni/v-clappr/issues/2573)) ([966d38e](https://github.com/vinayakkulkarni/v-clappr/commit/966d38ed001f0651d61d2eada3f47ee7ddd05160))
+* **deps-dev:** update @types/node requirement from ^25.2.3 to ^25.3.0 ([#2574](https://github.com/vinayakkulkarni/v-clappr/issues/2574)) ([b0522d1](https://github.com/vinayakkulkarni/v-clappr/commit/b0522d18a5b5308461bf479b68ccc1ede72e3f46))
+* **deps-dev:** update @types/node requirement from ^25.3.0 to ^25.3.3 ([#2579](https://github.com/vinayakkulkarni/v-clappr/issues/2579)) ([34a2c6b](https://github.com/vinayakkulkarni/v-clappr/commit/34a2c6b3d138cec0080e024a1ecb74198a5fd438))
+* **deps-dev:** update @types/node requirement from ^25.3.3 to ^25.3.5 ([#2580](https://github.com/vinayakkulkarni/v-clappr/issues/2580)) ([7c8f744](https://github.com/vinayakkulkarni/v-clappr/commit/7c8f74482f75ac00ad4db473f582045d7e4baa8d))
+* **deps-dev:** update @types/node requirement from ^25.3.5 to ^25.4.0 ([#2582](https://github.com/vinayakkulkarni/v-clappr/issues/2582)) ([8b9e3da](https://github.com/vinayakkulkarni/v-clappr/commit/8b9e3da7f9c992f58d600cbbb1e0d1136e4d82cb))
+* **deps-dev:** update @types/node requirement from ^25.4.0 to ^25.5.0 ([#2586](https://github.com/vinayakkulkarni/v-clappr/issues/2586)) ([4f0971b](https://github.com/vinayakkulkarni/v-clappr/commit/4f0971bbdcd08d0d281a990c45cb755931c8c3ea))
+* **deps-dev:** update @types/node requirement from ^25.5.0 to ^25.5.2 ([#2611](https://github.com/vinayakkulkarni/v-clappr/issues/2611)) ([5535df4](https://github.com/vinayakkulkarni/v-clappr/commit/5535df453e3b9a6398133e01577eb4ac3861ae84))
+* **deps-dev:** update @types/node requirement from ^25.5.2 to ^25.6.0 ([#2616](https://github.com/vinayakkulkarni/v-clappr/issues/2616)) ([843af5b](https://github.com/vinayakkulkarni/v-clappr/commit/843af5b1314f23648cdf4ecc615404a1c91660be))
+* **deps-dev:** update @vitejs/plugin-vue requirement ([#2585](https://github.com/vinayakkulkarni/v-clappr/issues/2585)) ([c57c047](https://github.com/vinayakkulkarni/v-clappr/commit/c57c04752baa167ab3da30fd7a85179ade7994b5))
+* **deps-dev:** update @vitejs/plugin-vue requirement ([#2617](https://github.com/vinayakkulkarni/v-clappr/issues/2617)) ([7d0d1a4](https://github.com/vinayakkulkarni/v-clappr/commit/7d0d1a45b91af8848a0c0f7c03a72445048e39f8))
+* **deps-dev:** update @vitejs/plugin-vue requirement in /example ([#2589](https://github.com/vinayakkulkarni/v-clappr/issues/2589)) ([c467781](https://github.com/vinayakkulkarni/v-clappr/commit/c46778129568b8d3b3894ccf6b3e2b722edd4b22))
+* **deps-dev:** update sass requirement from ^1.97.3 to ^1.98.0 ([#2583](https://github.com/vinayakkulkarni/v-clappr/issues/2583)) ([41c4264](https://github.com/vinayakkulkarni/v-clappr/commit/41c42640e91ee33d1800eda60909fa9b8f96af43))
+* **deps-dev:** update sass requirement from ^1.98.0 to ^1.99.0 ([#2610](https://github.com/vinayakkulkarni/v-clappr/issues/2610)) ([62f9fe0](https://github.com/vinayakkulkarni/v-clappr/commit/62f9fe020a8b0846f51ad991f44df443ff69e44d))
+* **deps-dev:** update sass requirement in /example ([#2584](https://github.com/vinayakkulkarni/v-clappr/issues/2584)) ([0bbe256](https://github.com/vinayakkulkarni/v-clappr/commit/0bbe256f72533771d1beed605b6a8bdf5a8689e5))
+* **deps-dev:** update vite requirement from ^8.0.0 to ^8.0.1 ([#2592](https://github.com/vinayakkulkarni/v-clappr/issues/2592)) ([a0c7d23](https://github.com/vinayakkulkarni/v-clappr/commit/a0c7d2361b7b3d4cbe057940fa62883cf802a878))
+* **deps-dev:** update vite requirement from ^8.0.1 to ^8.0.3 ([#2599](https://github.com/vinayakkulkarni/v-clappr/issues/2599)) ([4f36536](https://github.com/vinayakkulkarni/v-clappr/commit/4f36536f35dc7e099649c5e3e9d5bc680f1767fa))
+* **deps-dev:** update vite requirement from ^8.0.3 to ^8.0.5 ([#2613](https://github.com/vinayakkulkarni/v-clappr/issues/2613)) ([4f7423e](https://github.com/vinayakkulkarni/v-clappr/commit/4f7423ebd3ccceaf9eed41292a923164c98ef83b))
+* **deps-dev:** update vite requirement from ^8.0.5 to ^8.0.7 ([#2614](https://github.com/vinayakkulkarni/v-clappr/issues/2614)) ([f1e625f](https://github.com/vinayakkulkarni/v-clappr/commit/f1e625ffbde64a71349476625156426b652375c6))
+* **deps-dev:** update vite requirement from ^8.0.7 to ^8.0.8 ([#2615](https://github.com/vinayakkulkarni/v-clappr/issues/2615)) ([831ac77](https://github.com/vinayakkulkarni/v-clappr/commit/831ac77cd514a903565724a19c73c3cca1b52829))
+* **deps-dev:** update vite requirement in /example ([#2593](https://github.com/vinayakkulkarni/v-clappr/issues/2593)) ([5910c7c](https://github.com/vinayakkulkarni/v-clappr/commit/5910c7c43d06ac08c0a7ce4621ef57d098cee0f6))
+* **deps-dev:** update vite requirement in /example ([#2597](https://github.com/vinayakkulkarni/v-clappr/issues/2597)) ([93aeb34](https://github.com/vinayakkulkarni/v-clappr/commit/93aeb3410980313e28b38a0c0789df3a9e16bfd9))
+* **deps-dev:** update vite requirement in /example ([#2600](https://github.com/vinayakkulkarni/v-clappr/issues/2600)) ([f303f2b](https://github.com/vinayakkulkarni/v-clappr/commit/f303f2b9c1d3d22744f5b27ec913c1fb88935f92))
+* **deps-dev:** update vite-plus requirement ([#2603](https://github.com/vinayakkulkarni/v-clappr/issues/2603)) ([70ac37e](https://github.com/vinayakkulkarni/v-clappr/commit/70ac37ee697677569f642ffd712c8dbb7d16ebff))
+* **deps-dev:** update vite-plus requirement ([#2612](https://github.com/vinayakkulkarni/v-clappr/issues/2612)) ([500c18d](https://github.com/vinayakkulkarni/v-clappr/commit/500c18d377309467beb87f9fa742c0b14cbd7e3f))
+* **deps-dev:** update vite-plus requirement ([#2618](https://github.com/vinayakkulkarni/v-clappr/issues/2618)) ([0a97153](https://github.com/vinayakkulkarni/v-clappr/commit/0a97153103c19184101b47ea4968aa99e0998e77))
+* **deps-dev:** update vue-tsc requirement from ^3.2.4 to ^3.2.5 ([#2576](https://github.com/vinayakkulkarni/v-clappr/issues/2576)) ([55a8441](https://github.com/vinayakkulkarni/v-clappr/commit/55a8441499385572c995a9bae2b2231b9bbe31e1))
+* **deps-dev:** update vue-tsc requirement from ^3.2.5 to ^3.2.6 ([#2590](https://github.com/vinayakkulkarni/v-clappr/issues/2590)) ([ea8a625](https://github.com/vinayakkulkarni/v-clappr/commit/ea8a625a979566f1178baf2c18fb9470e5b869fa))
+* **deps-dev:** update vue-tsc requirement in /example ([#2575](https://github.com/vinayakkulkarni/v-clappr/issues/2575)) ([95b2b26](https://github.com/vinayakkulkarni/v-clappr/commit/95b2b26a9d94d8363348772b581e4a44354104a6))
+* **deps-dev:** update vue-tsc requirement in /example ([#2591](https://github.com/vinayakkulkarni/v-clappr/issues/2591)) ([9a3a0a9](https://github.com/vinayakkulkarni/v-clappr/commit/9a3a0a9ce0b447861c32ba97ae19d7be60070fc6))
+* update dependencies and fix tsconfig for TypeScript 6.0 ([b856ac8](https://github.com/vinayakkulkarni/v-clappr/commit/b856ac8d219cd52e5e187e36e5bb912d20eb152c))
+
 ## [3.4.1](https://github.com/vinayakkulkarni/v-clappr/compare/v-clappr-v3.4.0...v-clappr-v3.4.1) (2026-02-07)
 
 
