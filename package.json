@@ -32,7 +32,7 @@
     "@clappr/core": "0.13.2",
     "@clappr/hlsjs-playback": "1.9.4",
     "@clappr/plugins": "0.8.11",
-    "vue": "^3.5.31"
+    "vue": "^3.5.32"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
