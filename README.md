@@ -1,6 +1,7 @@
 # V-Clappr 🎥
 
 <!-- Badges -->
+
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-clappr/ci.yml?logo=github-actions)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/ci.yml)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-clappr/codeql.yml?logo=lgtm&logoWidth=18)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/codeql.yml)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-clappr/shipjs-trigger.yml?label=⛴%20Ship.js%20trigger)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/shipjs-trigger.yml)
@@ -8,7 +9,9 @@
 [![npm](https://img.shields.io/npm/v/v-clappr?sort=semver&logo=npm)](https://www.npmjs.com/package/v-clappr)
 [![DeepScan grade](https://deepscan.io/api/teams/9055/projects/11603/branches/309654/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=9055&pid=11603&bid=309654)
 [![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/vinayakkulkarni/v-clappr)](https://snyk.io/test/github/vinayakkulkarni/v-clappr)
+
 <!-- [![Netlify](https://img.shields.io/netlify/341e9f45-256e-4ad0-9f7f-b948b60f4e99?logo=netlify)](https://app.netlify.com/sites/v-clappr/deploys) -->
+
 [![GitHub contributors](https://img.shields.io/github/contributors/vinayakkulkarni/v-clappr)](https://github.com/vinayakkulkarni/v-clappr/graphs/contributors)
 [![npm type definitions](https://img.shields.io/npm/types/v-clappr?logo=typescript)](https://github.com/vinayakkulkarni/v-clappr/blob/main/package.json)
 [![npm](https://img.shields.io/npm/dt/v-clappr?logo=npm)](http://npm-stat.com/charts.html?package=v-clappr)
@@ -21,6 +24,7 @@
 [![eslint](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/eslint?logo=eslint)](https://eslint.org/)
 [![prettier](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/prettier?logo=prettier)](https://prettier.io/)
 [![typescript](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/typescript?logo=TypeScript)](https://www.typescriptlang.org/)
+
 <!-- End Badges -->
 
 ---
@@ -87,11 +91,11 @@ Global component:
 
 ```js
 // main.ts
-import { VClappr } from 'v-clappr';
-import { createApp } from 'vue';
+import { VClappr } from "v-clappr";
+import { createApp } from "vue";
 
 const app = createApp({});
-app.component('VClappr', VClappr);
+app.component("VClappr", VClappr);
 ```
 
 Or use locally
@@ -113,10 +117,10 @@ export default defineComponent({
 For Nuxt 3, create a file in `plugins/v-clappr.ts`
 
 ```js
-import { VClappr } from 'v-clappr';
+import { VClappr } from "v-clappr";
 
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.component('VClappr', VClappr);
+  nuxtApp.vueApp.component("VClappr", VClappr);
 });
 ```
 
@@ -260,16 +264,16 @@ HTML
 JS
 
 ```javascript
-import { defineComponent, ref } from 'vue';
-import { VClappr } from 'v-clappr';
+import { defineComponent, ref } from "vue";
+import { VClappr } from "v-clappr";
 
 export default defineComponent({
-  name: 'ClapprComponent',
+  name: "ClapprComponent",
   components: {
     VClappr,
   },
   setup() {
-    const source = ref('http://clappr.io/highline.mp4');
+    const source = ref("http://clappr.io/highline.mp4");
 
     return {
       source,

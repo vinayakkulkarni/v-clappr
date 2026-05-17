@@ -18,7 +18,7 @@ importers:
         specifier: 0.8.11
         version: 0.8.11(@clappr/core@0.13.2)
       vue:
-        specifier: ^3.5.31
+        specifier: ^3.5.34
         version: 3.5.34(typescript@6.0.3)
     devDependencies:
       '@commitlint/cli':
@@ -42,6 +42,12 @@ importers:
       lint-staged:
         specifier: latest
         version: 17.0.5
+      oxfmt:
+        specifier: 0.48.0
+        version: 0.48.0
+      oxlint:
+        specifier: 1.63.0
+        version: 1.63.0(oxlint-tsgolint@0.22.1)
       sass:
         specifier: ^1.99.0
         version: 1.99.0
