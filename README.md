@@ -91,11 +91,11 @@ Global component:
 
 ```js
 // main.ts
-import { VClappr } from "v-clappr";
-import { createApp } from "vue";
+import { VClappr } from 'v-clappr';
+import { createApp } from 'vue';
 
 const app = createApp({});
-app.component("VClappr", VClappr);
+app.component('VClappr', VClappr);
 ```
 
 Or use locally
@@ -117,10 +117,10 @@ export default defineComponent({
 For Nuxt 3, create a file in `plugins/v-clappr.ts`
 
 ```js
-import { VClappr } from "v-clappr";
+import { VClappr } from 'v-clappr';
 
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.component("VClappr", VClappr);
+  nuxtApp.vueApp.component('VClappr', VClappr);
 });
 ```
 
@@ -264,16 +264,16 @@ HTML
 JS
 
 ```javascript
-import { defineComponent, ref } from "vue";
-import { VClappr } from "v-clappr";
+import { defineComponent, ref } from 'vue';
+import { VClappr } from 'v-clappr';
 
 export default defineComponent({
-  name: "ClapprComponent",
+  name: 'ClapprComponent',
   components: {
     VClappr,
   },
   setup() {
-    const source = ref("http://clappr.io/highline.mp4");
+    const source = ref('http://clappr.io/highline.mp4');
 
     return {
       source,
