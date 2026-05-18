@@ -2,13 +2,9 @@
 
 <!-- Badges -->
 
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-clappr/ci.yml?logo=github-actions)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/ci.yml)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-clappr/codeql.yml?logo=lgtm&logoWidth=18)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/codeql.yml)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-clappr/shipjs-trigger.yml?label=⛴%20Ship.js%20trigger)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/shipjs-trigger.yml)
+[![Pipeline](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-clappr/pipeline.yml?logo=github-actions)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/pipeline.yml)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vinayakkulkarni/v-clappr?sort=semver&logo=github)](https://github.com/vinayakkulkarni/v-clappr/releases)
 [![npm](https://img.shields.io/npm/v/v-clappr?sort=semver&logo=npm)](https://www.npmjs.com/package/v-clappr)
-[![DeepScan grade](https://deepscan.io/api/teams/9055/projects/11603/branches/309654/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=9055&pid=11603&bid=309654)
-[![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/vinayakkulkarni/v-clappr)](https://snyk.io/test/github/vinayakkulkarni/v-clappr)
 
 <!-- [![Netlify](https://img.shields.io/netlify/341e9f45-256e-4ad0-9f7f-b948b60f4e99?logo=netlify)](https://app.netlify.com/sites/v-clappr/deploys) -->
 
@@ -18,11 +14,7 @@
 [![npm](https://img.shields.io/npm/dw/v-clappr?logo=npm)](http://npm-stat.com/charts.html?package=v-clappr)
 [![npm bundle size (version)](https://img.shields.io/bundlephobia/minzip/v-clappr)](https://bundlephobia.com/package/v-clappr@latest)
 
-[![built using janak](https://img.shields.io/badge/built%20using-janak-brightgreen)](https://github.com/vinayakkulkarni/janak)
-[![vue](https://img.shields.io/npm/dependency-version/v-clappr/dev/vue?logo=vue.js)](https://vuejs.org/)
-[![vite](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/vite?logo=vite)](https://vitejs.dev)
-[![eslint](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/eslint?logo=eslint)](https://eslint.org/)
-[![prettier](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/prettier?logo=prettier)](https://prettier.io/)
+[![vite-plus](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/vite-plus?logo=vite)](https://github.com/voidzero-dev/vite-plus)
 [![typescript](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/typescript?logo=TypeScript)](https://www.typescriptlang.org/)
 
 <!-- End Badges -->
