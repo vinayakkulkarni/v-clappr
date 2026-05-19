@@ -2,20 +2,19 @@
 
 <!-- Badges -->
 
-[![Pipeline](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-clappr/pipeline.yml?logo=github-actions)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/pipeline.yml)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vinayakkulkarni/v-clappr?sort=semver&logo=github)](https://github.com/vinayakkulkarni/v-clappr/releases)
-[![npm](https://img.shields.io/npm/v/v-clappr?sort=semver&logo=npm)](https://www.npmjs.com/package/v-clappr)
+[![Pipeline](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-clappr/pipeline.yml?branch=main&logo=github-actions&label=pipeline)](https://github.com/vinayakkulkarni/v-clappr/actions/workflows/pipeline.yml)
+[![GitHub release](https://img.shields.io/github/v/release/vinayakkulkarni/v-clappr?sort=semver&logo=github&label=release)](https://github.com/vinayakkulkarni/v-clappr/releases)
+[![npm](https://img.shields.io/npm/v/v-clappr?logo=npm&label=npm)](https://www.npmjs.com/package/v-clappr)
+[![JSR](https://img.shields.io/jsr/v/@vinayakkulkarni/v-clappr?logo=jsr&label=jsr)](https://jsr.io/@vinayakkulkarni/v-clappr)
+[![npm downloads](https://img.shields.io/npm/dm/v-clappr?logo=npm&label=downloads)](http://npm-stat.com/charts.html?package=v-clappr)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/v-clappr?label=size)](https://bundlephobia.com/package/v-clappr@latest)
+[![types](https://img.shields.io/npm/types/v-clappr?logo=typescript&label=types)](https://github.com/vinayakkulkarni/v-clappr/blob/main/package.json)
+[![License](https://img.shields.io/github/license/vinayakkulkarni/v-clappr?logo=github&label=license)](./LICENSE)
 
-<!-- [![Netlify](https://img.shields.io/netlify/341e9f45-256e-4ad0-9f7f-b948b60f4e99?logo=netlify)](https://app.netlify.com/sites/v-clappr/deploys) -->
-
-[![GitHub contributors](https://img.shields.io/github/contributors/vinayakkulkarni/v-clappr)](https://github.com/vinayakkulkarni/v-clappr/graphs/contributors)
-[![npm type definitions](https://img.shields.io/npm/types/v-clappr?logo=typescript)](https://github.com/vinayakkulkarni/v-clappr/blob/main/package.json)
-[![npm](https://img.shields.io/npm/dt/v-clappr?logo=npm)](http://npm-stat.com/charts.html?package=v-clappr)
-[![npm](https://img.shields.io/npm/dw/v-clappr?logo=npm)](http://npm-stat.com/charts.html?package=v-clappr)
-[![npm bundle size (version)](https://img.shields.io/bundlephobia/minzip/v-clappr)](https://bundlephobia.com/package/v-clappr@latest)
-
-[![vite-plus](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/vite-plus?logo=vite)](https://github.com/voidzero-dev/vite-plus)
-[![typescript](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/typescript?logo=TypeScript)](https://www.typescriptlang.org/)
+[![vite-plus](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/vite-plus?logo=vite&label=vite-plus)](https://github.com/voidzero-dev/vite-plus)
+[![typescript](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-clappr/dev/typescript?logo=TypeScript&label=typescript)](https://www.typescriptlang.org/)
+[![pnpm](https://img.shields.io/github/package-json/packageManager/vinayakkulkarni/v-clappr?label=pnpm&logo=pnpm)](https://pnpm.io/)
+[![node](https://img.shields.io/node/v/v-clappr?logo=node.js&label=node)](https://nodejs.org/)
 
 <!-- End Badges -->
 
@@ -64,17 +63,17 @@
 
 ```bash
 # install dependencies
-$ npm ci
+$ pnpm install --frozen-lockfile
 
 # package the library
-$ npm run build
+$ pnpm run build
 ```
 
 ## Installation
 
 ```bash
-$ npm install v-clappr
-$ npm install @clappr/core @clappr/plugins @clappr/hlsjs-playback
+$ pnpm add v-clappr
+$ pnpm add @clappr/core @clappr/plugins @clappr/hlsjs-playback
 ```
 
 ## Usage

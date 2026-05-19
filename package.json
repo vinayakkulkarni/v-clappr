@@ -2,7 +2,7 @@
   "name": "v-clappr",
   "version": "3.4.3",
   "private": false,
-  "description": "Vue.js wrapper for Clappr",
+  "description": "Vue 3 wrapper for the Clappr media player with HLS adaptive streaming, custom plugins, and TypeScript-native ESM exports.",
   "keywords": [
     "Clappr",
     "V-Clappr",

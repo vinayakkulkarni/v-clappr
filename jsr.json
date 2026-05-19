@@ -6,5 +6,6 @@
     "exclude": [
       "!dist"
     ]
-  }
+  },
+  "description": "Vue 3 wrapper for the Clappr media player with HLS adaptive streaming, custom plugins, and TypeScript-native ESM exports."
 }
