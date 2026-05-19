@@ -1,4 +1,4 @@
-@import '@unocss/reset/tailwind.css';
+@import 'tailwindcss';
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,4 +23,8 @@ body {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
+}
+
+.bg-gradient-demo {
+  background: linear-gradient(49deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
 }

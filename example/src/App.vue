@@ -68,7 +68,7 @@
 </script>
 
 <template>
-  <main class="w-screen h-screen bg-gradient-49">
+  <main class="w-dvw h-dvh bg-gradient-demo">
     <v-github-icon url="https://github.com/vinayakkulkarni/v-clappr" />
     <v-clappr
       el="player"
