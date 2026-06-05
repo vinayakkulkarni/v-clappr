@@ -123,6 +123,13 @@
 
 
 
+## [3.4.4](https://github.com/vinayakkulkarni/v-clappr/compare/v3.4.3...v3.4.4) (2026-06-05)
+
+
+### Documentation
+
+* rewrite README badges + SEO descriptions, switch to pnpm ([12f27fc](https://github.com/vinayakkulkarni/v-clappr/commit/12f27fc834bdc36c53d98c2a36a370edfb375686))
+
 ## [3.4.3](https://github.com/vinayakkulkarni/v-clappr/compare/v3.4.2...v3.4.3) (2026-05-19)
 
 
