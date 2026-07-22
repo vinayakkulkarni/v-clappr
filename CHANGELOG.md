@@ -123,6 +123,19 @@
 
 
 
+## [3.4.4](https://github.com/vinayakkulkarni/v-clappr/compare/v3.4.3...v3.4.4) (2026-07-22)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/checkout from 6 to 7 ([#2653](https://github.com/vinayakkulkarni/v-clappr/issues/2653)) ([307b90d](https://github.com/vinayakkulkarni/v-clappr/commit/307b90d44b18ea88cd4f0908c07270aa27a93687))
+* **deps:** bump actions/setup-node from 6 to 7 ([#2654](https://github.com/vinayakkulkarni/v-clappr/issues/2654)) ([4479e3f](https://github.com/vinayakkulkarni/v-clappr/commit/4479e3fe58ea4d0acfcc5b03793db0b9c77d9aa3))
+
+
+### Documentation
+
+* rewrite README badges + SEO descriptions, switch to pnpm ([12f27fc](https://github.com/vinayakkulkarni/v-clappr/commit/12f27fc834bdc36c53d98c2a36a370edfb375686))
+
 ## [3.4.3](https://github.com/vinayakkulkarni/v-clappr/compare/v3.4.2...v3.4.3) (2026-05-19)
 
 
