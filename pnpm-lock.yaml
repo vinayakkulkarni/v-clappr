@@ -211,8 +211,8 @@ importers:
         specifier: 0.13.2
         version: 0.13.2
       '@clappr/hlsjs-playback':
-        specifier: 1.9.4
-        version: 1.9.4(@clappr/core@0.13.2)(hls.js@1.6.2)
+        specifier: 3.1.2
+        version: 3.1.2(@clappr/core@0.13.2)(hls.js@1.6.2)
       '@clappr/plugins':
         specifier: 0.8.11
         version: 0.8.11(@clappr/core@0.13.2)
@@ -260,14 +260,14 @@ importers:
         specifier: 0.13.2
         version: 0.13.2
       '@clappr/hlsjs-playback':
-        specifier: 1.9.4
-        version: 1.9.4(@clappr/core@0.13.2)(hls.js@1.6.2)
+        specifier: 3.1.2
+        version: 3.1.2(@clappr/core@0.13.2)(hls.js@1.6.2)
       '@clappr/plugins':
         specifier: 0.8.11
         version: 0.8.11(@clappr/core@0.13.2)
       v-clappr:
         specifier: ^3.4.1
-        version: 3.4.1(@clappr/core@0.13.2)(@clappr/hlsjs-playback@1.9.4(@clappr/core@0.13.2)(hls.js@1.6.2))(@clappr/plugins@0.8.11(@clappr/core@0.13.2))(vue@3.5.34(typescript@7.0.2))
+        version: 3.4.1(@clappr/core@0.13.2)(@clappr/hlsjs-playback@3.1.2(@clappr/core@0.13.2)(hls.js@1.6.2))(@clappr/plugins@0.8.11(@clappr/core@0.13.2))(vue@3.5.34(typescript@7.0.2))
       v-github-icon:
         specifier: ^3.3.0
         version: 3.3.0(vue@3.5.34(typescript@7.0.2))
@@ -347,11 +347,11 @@ packages:
   '@clappr/core@0.13.2':
     resolution: {integrity: sha512-QW2wx5BHFfnoQY6biGLyVYBHCrx4amMScHCVpXZhSWgwqP6l8YNcz8fNkQuJWjLT5ISgFym3F4cxO8Imhmk2Kg==}
 
-  '@clappr/hlsjs-playback@1.9.4':
-    resolution: {integrity: sha512-EHJGoIvc+plZqv6ZXOyBggfKfbqYITjrxr81vu7Hc4V/DXu+H14d+YceQFNWG/2cneMRe/hiyDdd/eYLEQmX3g==}
+  '@clappr/hlsjs-playback@3.1.2':
+    resolution: {integrity: sha512-nLdB9ejdZ2UbeYKpFVC7oHN/eOq3L6QOHyTwa4WcTbv/pzDJzk45kl1Wp2PF52eWTZAM+ocK2PdtN4cCccRguw==}
     peerDependencies:
       '@clappr/core': '*'
-      hls.js: 1.6.2
+      hls.js: ^1
 
   '@clappr/plugins@0.8.11':
     resolution: {integrity: sha512-SZYU5mUbWdy22bo2Shhh/opI0ejhrK8xPbPb6Fnm70cimE+Eam9AjGQEeM8u39yhLYiTXaDlz5WlkergnWaLoQ==}
@@ -2464,7 +2464,7 @@ snapshots:
 
   '@clappr/core@0.13.2': {}
 
-  '@clappr/hlsjs-playback@1.9.4(@clappr/core@0.13.2)(hls.js@1.6.2)':
+  '@clappr/hlsjs-playback@3.1.2(@clappr/core@0.13.2)(hls.js@1.6.2)':
     dependencies:
       '@clappr/core': 0.13.2
       hls.js: 1.6.2
@@ -3892,10 +3892,10 @@ snapshots:
       rolldown: 1.2.15
       vite: 8.3.5(@types/node@26.6.5)(jiti@2.7.0)(sass@1.105.2)(yaml@2.9.1)
 
-  v-clappr@3.4.1(@clappr/core@0.13.2)(@clappr/hlsjs-playback@1.9.4(@clappr/core@0.13.2)(hls.js@1.6.2))(@clappr/plugins@0.8.11(@clappr/core@0.13.2))(vue@3.5.34(typescript@7.0.2)):
+  v-clappr@3.4.1(@clappr/core@0.13.2)(@clappr/hlsjs-playback@3.1.2(@clappr/core@0.13.2)(hls.js@1.6.2))(@clappr/plugins@0.8.11(@clappr/core@0.13.2))(vue@3.5.34(typescript@7.0.2)):
     dependencies:
       '@clappr/core': 0.13.2
-      '@clappr/hlsjs-playback': 1.9.4(@clappr/core@0.13.2)(hls.js@1.6.2)
+      '@clappr/hlsjs-playback': 3.1.2(@clappr/core@0.13.2)(hls.js@1.6.2)
       '@clappr/plugins': 0.8.11(@clappr/core@0.13.2)
       vue: 3.5.34(typescript@7.0.2)
 
