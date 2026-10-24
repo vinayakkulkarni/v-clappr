@@ -49,6 +49,18 @@
     overflow-x: hidden;
   }
 
+  /* Tailwind preflight makes every svg/video a block box. Clappr centers its
+     poster play button as inline content, so restore inline layout inside
+     the player. */
+  [data-player] svg {
+    display: inline-block;
+  }
+
+  [data-player] video {
+    max-width: none;
+    height: 100%;
+  }
+
   :focus-visible {
     outline: 2px solid var(--color-accent);
     outline-offset: 2px;
