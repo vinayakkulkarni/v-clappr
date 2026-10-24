@@ -46,6 +46,8 @@
     "build": "vp pack",
     "build:demo": "pnpm run build && pnpm --filter ./example run build",
     "deploy": "pnpm run build:demo && pnpm --filter ./example run deploy",
+    "skills:validate": "node .agents/skills/vue-best-practices/scripts/validate.ts",
+    "skills:build": "node .agents/skills/vue-best-practices/scripts/build.ts",
     "prepare": "is-ci || husky"
   },
   "dependencies": {

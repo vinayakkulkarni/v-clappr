@@ -20,7 +20,6 @@
 v-clappr/
 ├── src/
 │   ├── components/     # VClappr component
-│   ├── utils/          # Helper utilities
 │   ├── index.ts        # Public exports
 │   └── install.ts      # Vue plugin installer
 ├── dist/               # Built output (ESM only)
@@ -61,6 +60,7 @@ pnpm run typecheck     # vue-tsc (package + example)
 pnpm run test          # vp test run
 pnpm run build:demo    # package + example demo
 pnpm run deploy        # build + wrangler deploy (v-clappr-demo Worker)
+pnpm run skills:build  # regenerate .agents/skills/*/AGENTS.md
 ```
 
 ---
