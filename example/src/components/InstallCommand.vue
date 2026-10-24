@@ -22,7 +22,7 @@
     class="flex min-w-0 items-stretch overflow-hidden rounded-md border border-line bg-surface"
   >
     <code
-      class="min-w-0 flex-1 overflow-x-auto px-3 py-2.5 font-mono text-[13px] whitespace-nowrap"
+      class="min-w-0 flex-1 overflow-x-auto px-3 py-2.5 font-mono text-code whitespace-nowrap"
     >
       <span class="text-muted select-none">$ </span>{{ command }}
     </code>

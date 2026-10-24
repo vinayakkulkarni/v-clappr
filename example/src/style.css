@@ -16,6 +16,21 @@
   --color-accent: oklch(0.62 0.17 52);
   --color-accent-ink: oklch(0.99 0.004 85);
   --color-stage: oklch(0.16 0.01 285);
+
+  --text-display: clamp(2rem, 6vw, 3.75rem);
+  --text-display--line-height: 1.02;
+  --text-code: 0.8125rem;
+  --text-code--line-height: 1.5;
+}
+
+/* Player beside the event panel. */
+@utility grid-cols-stage {
+  grid-template-columns: minmax(0, 1fr) 18rem;
+}
+
+/* Section heading column beside its content. */
+@utility grid-cols-aside {
+  grid-template-columns: 18rem minmax(0, 1fr);
 }
 
 @layer base {

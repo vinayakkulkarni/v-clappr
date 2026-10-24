@@ -106,9 +106,7 @@
       <p class="font-mono text-xs tracking-wide text-accent uppercase">
         Vue 3 · Clappr · HLS
       </p>
-      <h1
-        class="mt-3 max-w-3xl text-[clamp(2rem,6vw,3.75rem)] leading-[1.02] font-light tracking-tight"
-      >
+      <h1 class="mt-3 max-w-3xl text-display font-light tracking-tight">
         A media player that speaks
         <span class="font-extrabold">Vue events.</span>
       </h1>
@@ -122,10 +120,7 @@
       </div>
     </section>
 
-    <section
-      class="grid gap-5 lg:grid-cols-[minmax(0,1fr)_18rem]"
-      aria-label="Live demo"
-    >
+    <section class="grid gap-5 lg:grid-cols-stage" aria-label="Live demo">
       <div class="min-w-0">
         <div
           class="aspect-video w-full overflow-hidden rounded-lg bg-stage ring-1 ring-line"
@@ -186,7 +181,7 @@
         </p>
         <div class="mt-5 border-t border-line pt-4">
           <p class="font-mono text-xs text-muted">Emitted events</p>
-          <ol class="mt-2 space-y-1.5 font-mono text-[13px]" aria-live="polite">
+          <ol class="mt-2 space-y-1.5 font-mono text-code" aria-live="polite">
             <li v-if="!log.length" class="text-muted">Press play to begin.</li>
             <li
               v-for="entry in log"
@@ -201,7 +196,7 @@
       </aside>
     </section>
 
-    <section class="mt-10 grid gap-5 lg:grid-cols-[18rem_minmax(0,1fr)]">
+    <section class="mt-10 grid gap-5 lg:grid-cols-aside">
       <div>
         <h2 class="text-lg font-semibold">Usage</h2>
         <p class="mt-2 text-sm text-muted">
@@ -210,7 +205,7 @@
         </p>
       </div>
       <pre
-        class="min-w-0 overflow-x-auto rounded-lg border border-line bg-surface p-4 font-mono text-[13px] leading-relaxed"
+        class="min-w-0 overflow-x-auto rounded-lg border border-line bg-surface p-4 font-mono text-code leading-relaxed"
       ><code>{{ usage }}</code></pre>
     </section>
 
