@@ -3,3 +3,12 @@ packages:
 
 allowBuilds:
   '@parcel/watcher': true
+  esbuild: true
+  workerd: true
+
+# Latest releases of these toolchains land inside pnpm's 1-day minimumReleaseAge.
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
+  - wrangler
+  - miniflare

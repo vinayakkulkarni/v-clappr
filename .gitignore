@@ -128,3 +128,6 @@ dist
 
 # macOS
 .DS_Store
+
+# Cloudflare
+.wrangler
