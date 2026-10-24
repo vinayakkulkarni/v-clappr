@@ -5,24 +5,28 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "build": "vite build",
+    "preview": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
-    "@clappr/core": "0.13.2",
-    "@clappr/hlsjs-playback": "1.9.4",
-    "@clappr/plugins": "0.8.11",
-    "v-clappr": "^3.4.1",
-    "v-github-icon": "^3.3.0",
-    "vue": "^3.5.34"
+    "@clappr/core": "0.18.0",
+    "@clappr/hlsjs-playback": "3.1.3",
+    "@clappr/plugins": "0.9.17",
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "hls.js": "^1.7.3",
+    "v-clappr": "workspace:*",
+    "vue": "^3.5.44"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-vue": "^6.0.10",
-    "sass": "^1.105.2",
     "tailwindcss": "^4.3.3",
-    "typescript": "^7.0.2",
-    "vite": "^8.3.4",
-    "vue-tsc": "^3.3.13"
+    "typescript": "^6.0.3",
+    "vite": "^8.3.5",
+    "vue-tsc": "^3.3.13",
+    "wrangler": "^4.152.0"
   }
 }

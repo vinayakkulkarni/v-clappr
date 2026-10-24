@@ -31,6 +31,8 @@
 
 ## Demo
 
+Live demo: **[v-clappr.vinayakkulkarni.dev](https://v-clappr.vinayakkulkarni.dev)** (source in [`example/`](./example))
+
 [![Edit v-clappr](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/v-clappr?file=src/App.vue)
 
 ---
@@ -57,8 +59,9 @@
 
 - [Vue 3.x](https://vuejs.org/)
 - [@clappr/core](https://www.npmjs.com/package/@clappr/core)
-- [@clappr/plugins](https://www.npmjs.com/package/@clappr/core)
+- [@clappr/plugins](https://www.npmjs.com/package/@clappr/plugins)
 - [@clappr/hlsjs-playback](https://www.npmjs.com/package/@clappr/hlsjs-playback)
+- [hls.js](https://www.npmjs.com/package/hls.js) (a peer of `@clappr/hlsjs-playback` 3.x)
 
 ### Build Setup
 
@@ -68,13 +71,17 @@ $ pnpm install --frozen-lockfile
 
 # package the library
 $ pnpm run build
+
+# run the demo locally / deploy it to Cloudflare Workers
+$ pnpm --filter ./example dev
+$ pnpm run deploy
 ```
 
 ## Installation
 
 ```bash
 $ pnpm add v-clappr
-$ pnpm add @clappr/core @clappr/plugins @clappr/hlsjs-playback
+$ pnpm add @clappr/core @clappr/plugins @clappr/hlsjs-playback hls.js
 ```
 
 ## Usage

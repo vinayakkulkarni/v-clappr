@@ -1,30 +1,83 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/geist';
+@import '@fontsource-variable/geist-mono';
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  color-scheme: light dark;
-  color: rgb(255 255 255 / 87%);
-  background-color: #242424;
-  font-synthesis: none;
-  text-rendering: optimizelegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-size-adjust: 100%;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, monospace;
+
+  --color-canvas: oklch(0.975 0.004 85);
+  --color-surface: oklch(0.995 0.002 85);
+  --color-ink: oklch(0.21 0.014 285);
+  --color-muted: oklch(0.47 0.012 285);
+  --color-line: oklch(0.89 0.006 285);
+  --color-accent: oklch(0.62 0.17 52);
+  --color-accent-ink: oklch(0.99 0.004 85);
+  --color-stage: oklch(0.16 0.01 285);
+
+  --text-display: clamp(2rem, 6vw, 3.75rem);
+  --text-display--line-height: 1.02;
+  --text-code: 0.8125rem;
+  --text-code--line-height: 1.5;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  place-content: center;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+/* Player beside the event panel. */
+@utility grid-cols-stage {
+  grid-template-columns: minmax(0, 1fr) 18rem;
 }
 
-.bg-gradient-demo {
-  background: linear-gradient(49deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+/* Section heading column beside its content. */
+@utility grid-cols-aside {
+  grid-template-columns: 18rem minmax(0, 1fr);
+}
+
+@layer base {
+  .dark {
+    --color-canvas: oklch(0.165 0.01 285);
+    --color-surface: oklch(0.205 0.012 285);
+    --color-ink: oklch(0.94 0.006 85);
+    --color-muted: oklch(0.7 0.01 285);
+    --color-line: oklch(0.3 0.012 285);
+    --color-accent: oklch(0.78 0.15 62);
+    --color-accent-ink: oklch(0.18 0.02 60);
+    --color-stage: oklch(0.11 0.008 285);
+  }
+
+  html {
+    color-scheme: light;
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+
+  /* Tailwind preflight makes every svg/video a block box. Clappr centers its
+     poster play button as inline content, so restore inline layout inside
+     the player. */
+  [data-player] svg {
+    display: inline-block;
+  }
+
+  [data-player] video {
+    max-width: none;
+    height: 100%;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
 }

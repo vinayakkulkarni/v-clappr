@@ -20,7 +20,6 @@
 v-clappr/
 ├── src/
 │   ├── components/     # VClappr component
-│   ├── utils/          # Helper utilities
 │   ├── index.ts        # Public exports
 │   └── install.ts      # Vue plugin installer
 ├── dist/               # Built output (ESM only)
@@ -43,7 +42,9 @@ v-clappr/
 | Package Mgr | pnpm                              |
 | Git Hooks   | Husky + lint-staged + commitlint  |
 | Release     | release-please                    |
-| Node        | 24                                |
+| Node        | 26 (`devEngines.runtime`)         |
+| Tests       | vp test (Vitest + happy-dom)      |
+| Demo        | example/ (Vite) on CF Workers     |
 
 ---
 
@@ -55,7 +56,11 @@ pnpm run lint:fix      # vp lint --fix
 pnpm run format        # vp fmt
 pnpm run format:check  # vp fmt --check
 pnpm run build         # vp pack (tsdown + dts)
-pnpm run test          # Tests
+pnpm run typecheck     # vue-tsc (package + example)
+pnpm run test          # vp test run
+pnpm run build:demo    # package + example demo
+pnpm run deploy        # build + wrangler deploy (v-clappr-demo Worker)
+pnpm run skills:build  # regenerate .agents/skills/*/AGENTS.md
 ```
 
 ---

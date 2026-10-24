@@ -17,12 +17,12 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v6
+        uses: pnpm/action-setup@v6.1.0
 
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
-          node-version-file: '.nvmrc'
+          node-version: 26
           cache: 'pnpm'
 
       - name: Install dependencies
@@ -35,7 +35,7 @@ jobs:
         run: pnpm run format:check
 
   build:
-    name: 'Build'
+    name: 'Typecheck, Test & Build'
     needs: [quality]
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -44,12 +44,12 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v6
+        uses: pnpm/action-setup@v6.1.0
 
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
-          node-version-file: '.nvmrc'
+          node-version: 26
           cache: 'pnpm'
 
       - name: Install dependencies
@@ -57,3 +57,12 @@ jobs:
 
       - name: Build the package
         run: pnpm run build
+
+      - name: Typecheck
+        run: pnpm run typecheck
+
+      - name: Run tests
+        run: pnpm run test
+
+      - name: Build the demo
+        run: pnpm --filter ./example run build

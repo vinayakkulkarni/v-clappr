@@ -1,21 +1,10 @@
-/* eslint-disable @typescript-eslint/ban-types */
 /// <reference types="vite/client" />
 
-declare module '*.vue' {
-  import type { DefineComponent } from 'vue';
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const component: DefineComponent<{}, {}, any>;
-  export default component;
-}
-declare module '@clappr/core' {
-  export type PlayerOptions = {
-    parentId: string;
-    [key: string]: unknown;
-  };
+type AnalyticsProps = Record<string, string | number | boolean>;
 
-  export class Player {
-    constructor(options: PlayerOptions);
-    destroy(): void;
-    configure(options: PlayerOptions): void;
-  }
+interface Window {
+  plausible?: (event: string, options?: { props?: AnalyticsProps }) => void;
+  op?: (method: 'track', event: string, props?: AnalyticsProps) => void;
+  dataLayer: IArguments[];
+  gtag?: (...args: unknown[]) => void;
 }

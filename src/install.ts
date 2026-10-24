@@ -1,12 +1,10 @@
-import { App as Application, Plugin } from 'vue';
+import type { Plugin } from 'vue';
 import VClappr from './components/VClappr.vue';
-import { setVueInstance } from './utils/config';
 
 let installed = false;
 
-const install: Exclude<Plugin['install'], undefined> = (app: Application) => {
+const install: Exclude<Plugin['install'], undefined> = (app) => {
   if (!installed) {
-    setVueInstance(app);
     app.component('VClappr', VClappr);
     installed = true;
   }
