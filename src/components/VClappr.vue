@@ -43,6 +43,12 @@
     };
   };
 
+  type PlayerConfig = Omit<Options, 'width' | 'height'> &
+    ConstructorParameters<typeof Player>[0] & {
+      plugins: unknown[];
+      events: Record<string, (...args: never[]) => void>;
+    };
+
   const emit = defineEmits<{
     init: [e: Player];
     ready: [e: Player];
@@ -70,7 +76,7 @@
   const options = defineModel('options', {
     type: Object as PropType<Options>,
     required: false,
-    default: {
+    default: () => ({
       width: '100%',
       height: '100%',
       autoPlay: false,
@@ -92,7 +98,7 @@
         dashShakaConfig: {},
       },
       poster: 'https://picsum.photos/3840/2160',
-    },
+    }),
   });
 
   const player: Ref<Player | null> = ref(null);
@@ -110,12 +116,20 @@
     if (player.value) emit('init', player.value);
   });
 
+  const isNumber = (value: unknown): value is number =>
+    typeof value === 'number';
+
   const initPlayer = async (): Promise<string> => {
     // Return a new promise
     return new Promise((resolve, reject) => {
       if (el.value) {
-        // New Player instance
-        player.value = new Player({
+        // `@clappr/core` types `width`/`height` as numbers, but the player
+        // also accepts CSS lengths (e.g. '100%') through `resize()`.
+        const { width, height, ...rest } = options.value;
+        const config: PlayerConfig = {
+          ...rest,
+          width: isNumber(width) ? width : undefined,
+          height: isNumber(height) ? height : undefined,
           parentId: `#${el.value}`,
           source: source.value,
           plugins: [
@@ -132,11 +146,7 @@
             GoogleAnalytics,
             Poster,
             SeekTime,
-            SpinnerThreeBounce,
-            Stats,
-            WaterMark,
             HlsjsPlayback,
-            // DashShakaPlayback,
           ],
           events: {
             onReady: (e: Player) => {
@@ -173,8 +183,12 @@
               emit('subtitle-available', e);
             },
           },
-          ...options.value,
-        });
+        };
+        const instance = new Player(config);
+        if (!isNumber(width) || !isNumber(height)) {
+          instance.resize({ width: width ?? '100%', height: height ?? '100%' });
+        }
+        player.value = instance;
         resolve('Player created!');
       } else {
         reject(new Error('Root element not found'));
