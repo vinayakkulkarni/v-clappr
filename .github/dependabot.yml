@@ -33,6 +33,9 @@ updates:
   - package-ecosystem: npm
     versioning-strategy: increase
     directory: '/example'
+    # Same TypeScript 7 hold as the root entry above.
+    ignore:
+      - dependency-name: typescript
     schedule:
       interval: daily
       time: '00:00'
