@@ -3,6 +3,11 @@ updates:
   - package-ecosystem: npm
     versioning-strategy: increase
     directory: '/'
+    # TypeScript 7 is held: vp pack fails ("TypeScript 7.0 is not supported
+    # when using Vue"). Remove this ignore when vue-tsc and vite-plus
+    # support TypeScript 7.
+    ignore:
+      - dependency-name: typescript
     schedule:
       interval: daily
       time: '00:00'
