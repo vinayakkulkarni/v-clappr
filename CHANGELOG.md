@@ -123,6 +123,38 @@
 
 
 
+## [3.5.0](https://github.com/vinayakkulkarni/v-clappr/compare/v3.4.3...v3.5.0) (2026-10-28)
+
+
+### Features
+
+* **demo:** enable ga4 ([#2669](https://github.com/vinayakkulkarni/v-clappr/issues/2669)) ([a3259f0](https://github.com/vinayakkulkarni/v-clappr/commit/a3259f077182b92c5132731f8aeed75ec6acc404))
+
+
+### Bug Fixes
+
+* **deps:** bump actions/checkout from 6 to 7 ([#2653](https://github.com/vinayakkulkarni/v-clappr/issues/2653)) ([307b90d](https://github.com/vinayakkulkarni/v-clappr/commit/307b90d44b18ea88cd4f0908c07270aa27a93687))
+* **deps:** bump actions/setup-node from 6 to 7 ([#2654](https://github.com/vinayakkulkarni/v-clappr/issues/2654)) ([4479e3f](https://github.com/vinayakkulkarni/v-clappr/commit/4479e3fe58ea4d0acfcc5b03793db0b9c77d9aa3))
+* **deps:** hold typescript at 6.0.3 ([#2671](https://github.com/vinayakkulkarni/v-clappr/issues/2671)) ([420a099](https://github.com/vinayakkulkarni/v-clappr/commit/420a099cb6b8bd9925142e0562ae37db6099661e))
+* **deps:** hold typescript at 6.0.3 in the example ([#2673](https://github.com/vinayakkulkarni/v-clappr/issues/2673)) ([40bba1d](https://github.com/vinayakkulkarni/v-clappr/commit/40bba1d0d39c937601629aeb8eeb038e74f5afe3))
+
+
+### Documentation
+
+* rewrite README badges + SEO descriptions, switch to pnpm ([12f27fc](https://github.com/vinayakkulkarni/v-clappr/commit/12f27fc834bdc36c53d98c2a36a370edfb375686))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @types/node from 25.9.0 to 26.6.5 ([#2664](https://github.com/vinayakkulkarni/v-clappr/issues/2664)) ([30b74c6](https://github.com/vinayakkulkarni/v-clappr/commit/30b74c6fdac188df73c37edc051d192a84065103))
+* **deps-dev:** bump the npm-development group with 10 updates ([#2661](https://github.com/vinayakkulkarni/v-clappr/issues/2661)) ([8522abd](https://github.com/vinayakkulkarni/v-clappr/commit/8522abd9172abb32799af9059c4cb19d3f297fb1))
+* **deps-dev:** bump typescript from 6.0.3 to 7.0.2 ([#2667](https://github.com/vinayakkulkarni/v-clappr/issues/2667)) ([ae63929](https://github.com/vinayakkulkarni/v-clappr/commit/ae639295be7879024f4a5a6fdd027b397a0a2a9d))
+* **deps-dev:** bump typescript from 6.0.3 to 7.0.2 ([#2670](https://github.com/vinayakkulkarni/v-clappr/issues/2670)) ([71e5bcc](https://github.com/vinayakkulkarni/v-clappr/commit/71e5bcc1e43a031d8891c40fc71ee7aec3df1463))
+* **deps-dev:** bump typescript from 6.0.3 to 7.0.2 in /example ([#2672](https://github.com/vinayakkulkarni/v-clappr/issues/2672)) ([da1bc8c](https://github.com/vinayakkulkarni/v-clappr/commit/da1bc8c958c18d961287a0bccf434ab23ba8f13a))
+* **deps-dev:** bump unplugin-vue from 7.2.0 to 8.0.0 ([#2666](https://github.com/vinayakkulkarni/v-clappr/issues/2666)) ([6a8cf95](https://github.com/vinayakkulkarni/v-clappr/commit/6a8cf9510ffebd3fdbf9a217a17035f0fb21634c))
+* **deps-dev:** bump vite-plus from 0.1.21 to 1.1.0 ([#2659](https://github.com/vinayakkulkarni/v-clappr/issues/2659)) ([c22d079](https://github.com/vinayakkulkarni/v-clappr/commit/c22d079aa92d2d42f2d8e6cbd02ae17bf5c99a74))
+* move the demo to cloudflare workers, pnpm and latest deps ([#2668](https://github.com/vinayakkulkarni/v-clappr/issues/2668)) ([d9ee669](https://github.com/vinayakkulkarni/v-clappr/commit/d9ee6695e400c91e9a027f311388af89fe3adfb1))
+
 ## [3.4.3](https://github.com/vinayakkulkarni/v-clappr/compare/v3.4.2...v3.4.3) (2026-05-19)
 
 
