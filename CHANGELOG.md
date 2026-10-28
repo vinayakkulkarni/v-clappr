@@ -123,6 +123,13 @@
 
 
 
+## [3.5.1](https://github.com/vinayakkulkarni/v-clappr/compare/v3.5.0...v3.5.1) (2026-10-28)
+
+
+### Documentation
+
+* link live demo and related projects ([#2674](https://github.com/vinayakkulkarni/v-clappr/issues/2674)) ([de08938](https://github.com/vinayakkulkarni/v-clappr/commit/de0893823d9f0d0305cb96c661f12931bb345b9b))
+
 ## [3.5.0](https://github.com/vinayakkulkarni/v-clappr/compare/v3.4.3...v3.5.0) (2026-10-28)
 
 
