@@ -19,6 +19,8 @@
 
 <!-- End Badges -->
 
+**[Live demo](https://v-clappr.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr)** · [npm](https://www.npmjs.com/package/v-clappr) · [JSR](https://jsr.io/@vinayakkulkarni/v-clappr)
+
 ---
 
 ## Features
@@ -31,7 +33,7 @@
 
 ## Demo
 
-Live demo: **[v-clappr.vinayakkulkarni.dev](https://v-clappr.vinayakkulkarni.dev)** (source in [`example/`](./example))
+Live demo: **[v-clappr.vinayakkulkarni.dev](https://v-clappr.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr)** (source in [`example/`](./example))
 
 [![Edit v-clappr](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/v-clappr?file=src/App.vue)
 
@@ -325,11 +327,22 @@ _Note_:
 
 ## Author
 
-**v-clappr** &copy; [Vinayak](https://vinayakkulkarni.dev), Released under the [MIT](./LICENSE) License.<br>
+**v-clappr** &copy; [Vinayak](https://vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by Vinayak Kulkarni with help from contributors ([list](https://github.com/vinayakkulkarni/v-clappr/contributors)).
 
-> [vinayakkulkarni.dev](https://vinayakkulkarni.dev) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
+> [vinayakkulkarni.dev](https://vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr) · GitHub [@vinayakkulkarni](https://github.com/vinayakkulkarni) · Twitter [@\_vinayak_k](https://twitter.com/_vinayak_k)
 
 ## License
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvinayakkulkarni%2Fv-clappr?ref=badge_large)
+
+## More from the author
+
+- [v-pip](https://v-pip.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr) — picture-in-picture for Vue 3
+- [v-intl](https://v-intl.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr) — native `Intl` formatting components for Vue 3
+- [v-image](https://v-image.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr) — Vue 3 image input with live preview
+- [v-spotlight](https://v-spotlight.vinayakkulkarni.dev/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr) — cursor spotlight overlay for Vue 3
+- [nxui](https://nxui.geoql.in/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr) — animated copy-paste UI components and Paper Shaders for Vue 3 and Nuxt
+- [shadscan-vue](https://shadscan-vue.geoql.in/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr) — UI-fundamentals audits for shadcn-vue and shadcn-nuxt apps
+
+See every project at [vinayakkulkarni.dev/projects](https://vinayakkulkarni.dev/projects?utm_source=github&utm_medium=readme&utm_campaign=v-clappr) and [geoql.in](https://geoql.in/?utm_source=github&utm_medium=readme&utm_campaign=v-clappr).
