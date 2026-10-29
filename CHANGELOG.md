@@ -123,6 +123,13 @@
 
 
 
+## [3.5.2](https://github.com/vinayakkulkarni/v-clappr/compare/v3.5.1...v3.5.2) (2026-10-29)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump wrangler ([#2676](https://github.com/vinayakkulkarni/v-clappr/issues/2676)) ([6eb1b39](https://github.com/vinayakkulkarni/v-clappr/commit/6eb1b391a12533228c8579863930fd792c28be1c))
+
 ## [3.5.1](https://github.com/vinayakkulkarni/v-clappr/compare/v3.5.0...v3.5.1) (2026-10-28)
 
 
