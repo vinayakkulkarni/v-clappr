@@ -167,14 +167,14 @@ importers:
   .:
     dependencies:
       '@clappr/core':
-        specifier: 0.18.0
-        version: 0.18.0
+        specifier: 0.18.1
+        version: 0.18.1
       '@clappr/hlsjs-playback':
-        specifier: 3.1.3
-        version: 3.1.3(@clappr/core@0.18.0)(hls.js@1.7.3)
+        specifier: 3.1.4
+        version: 3.1.4(@clappr/core@0.18.1)(hls.js@1.7.3)
       '@clappr/plugins':
-        specifier: 0.9.17
-        version: 0.9.17(@clappr/core@0.18.0)
+        specifier: 0.9.18
+        version: 0.9.18(@clappr/core@0.18.1)
       hls.js:
         specifier: ^1.7.3
         version: 1.7.3
@@ -225,14 +225,14 @@ importers:
   example:
     dependencies:
       '@clappr/core':
-        specifier: 0.18.0
-        version: 0.18.0
+        specifier: 0.18.1
+        version: 0.18.1
       '@clappr/hlsjs-playback':
-        specifier: 3.1.3
-        version: 3.1.3(@clappr/core@0.18.0)(hls.js@1.7.3)
+        specifier: 3.1.4
+        version: 3.1.4(@clappr/core@0.18.1)(hls.js@1.7.3)
       '@clappr/plugins':
-        specifier: 0.9.17
-        version: 0.9.17(@clappr/core@0.18.0)
+        specifier: 0.9.18
+        version: 0.9.18(@clappr/core@0.18.1)
       '@fontsource-variable/geist':
         specifier: ^5.3.0
         version: 5.3.0
@@ -301,17 +301,17 @@ packages:
   '@blazediff/core@1.10.0':
     resolution: {integrity: sha512-AOQff0zgR7cGsZL+4E7hVkmujoPUpm0J9xzWGWZj5wCjd3gmxESXAPfKyuzs93VdpQNFhHlBhfOjrcZ+XTERtQ==}
 
-  '@clappr/core@0.18.0':
-    resolution: {integrity: sha512-n8DX9wFyqEZKaDwyCaapJS2bnbZZMIyFdoPAK6JaWJ140JznclXbT73OLMoRrU11AtTgbJlkOTUfrn4jr4T6aw==}
+  '@clappr/core@0.18.1':
+    resolution: {integrity: sha512-I6t1dkjMwICJl3Pxw/hTVgW1wmva3bxRvE6mXQ4ygAvY8hPpvkeY0wc4iqLyMZWGJOAJFnurBIUN87bKRvRoGQ==}
 
-  '@clappr/hlsjs-playback@3.1.3':
-    resolution: {integrity: sha512-lr4iuSNBoQE3KtJhBTA5hCisx7bshGF7PqzxGHS1IbiLZOsIn+AtvFV3Df0cAhEg6lQCJ1C5ybGMRRNlkhKE6A==}
+  '@clappr/hlsjs-playback@3.1.4':
+    resolution: {integrity: sha512-Vshst3VtxyqFqHQ4SxEk3rYjGX3M30cUwU30IKgiqp1ldE2capTkb9cZDYKjUvRTXFWntVQJnsLeI5ftfr0xGQ==}
     peerDependencies:
       '@clappr/core': '*'
       hls.js: ^1
 
-  '@clappr/plugins@0.9.17':
-    resolution: {integrity: sha512-TtkN+yYrattX75ErsgPMNMmlWVaL1Csh8g25kk7e0hkba4m7xyYZU3gY2MaVaNT1UMESMzt8xsUh8Sfotw7oFw==}
+  '@clappr/plugins@0.9.18':
+    resolution: {integrity: sha512-oxEcCHE2s2z6OpfRaDvTr5eTyvAtocbT0ip7CR1vUGsbZToIrA9g1JX/pnNRYkA4GL4qYQ2YJ55rwUktBflZtg==}
     peerDependencies:
       '@clappr/core': '*'
 
@@ -2680,16 +2680,16 @@ snapshots:
 
   '@blazediff/core@1.10.0': {}
 
-  '@clappr/core@0.18.0': {}
+  '@clappr/core@0.18.1': {}
 
-  '@clappr/hlsjs-playback@3.1.3(@clappr/core@0.18.0)(hls.js@1.7.3)':
+  '@clappr/hlsjs-playback@3.1.4(@clappr/core@0.18.1)(hls.js@1.7.3)':
     dependencies:
-      '@clappr/core': 0.18.0
+      '@clappr/core': 0.18.1
       hls.js: 1.7.3
 
-  '@clappr/plugins@0.9.17(@clappr/core@0.18.0)':
+  '@clappr/plugins@0.9.18(@clappr/core@0.18.1)':
     dependencies:
-      '@clappr/core': 0.18.0
+      '@clappr/core': 0.18.1
 
   '@cloudflare/kv-asset-handler@0.5.0': {}
 
