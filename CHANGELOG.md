@@ -123,6 +123,19 @@
 
 
 
+## [3.5.2](https://github.com/vinayakkulkarni/v-clappr/compare/v3.5.1...v3.5.2) (2026-11-05)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump sass ([#2687](https://github.com/vinayakkulkarni/v-clappr/issues/2687)) ([2727d3a](https://github.com/vinayakkulkarni/v-clappr/commit/2727d3abdd5df54dd8a3d8df5b4a804a9ab3097f))
+* **deps-dev:** bump the npm-development group ([#2686](https://github.com/vinayakkulkarni/v-clappr/issues/2686)) ([35ca946](https://github.com/vinayakkulkarni/v-clappr/commit/35ca9465d1089764a23ce184519e6f5469ce5ed6))
+* **deps-dev:** bump the npm-development group with 2 updates ([#2685](https://github.com/vinayakkulkarni/v-clappr/issues/2685)) ([5571952](https://github.com/vinayakkulkarni/v-clappr/commit/5571952fea980c9ef2c4aad157f9b37fdec1a8dd))
+* **deps-dev:** bump the npm-development group with 4 updates ([#2682](https://github.com/vinayakkulkarni/v-clappr/issues/2682)) ([be44c65](https://github.com/vinayakkulkarni/v-clappr/commit/be44c658da65cd03a59f0402343607681d1e35b8))
+* **deps-dev:** bump wrangler ([#2676](https://github.com/vinayakkulkarni/v-clappr/issues/2676)) ([6eb1b39](https://github.com/vinayakkulkarni/v-clappr/commit/6eb1b391a12533228c8579863930fd792c28be1c))
+* **deps-dev:** bump wrangler ([#2688](https://github.com/vinayakkulkarni/v-clappr/issues/2688)) ([259d7b9](https://github.com/vinayakkulkarni/v-clappr/commit/259d7b9c30e39eb620d1f8038f6930086238d5f9))
+* **deps-dev:** bump wrangler in /example in the npm-development group ([#2689](https://github.com/vinayakkulkarni/v-clappr/issues/2689)) ([4cdbd26](https://github.com/vinayakkulkarni/v-clappr/commit/4cdbd268de2572754e2e7e306190c76969b491d6))
+
 ## [3.5.1](https://github.com/vinayakkulkarni/v-clappr/compare/v3.5.0...v3.5.1) (2026-10-28)
 
 
