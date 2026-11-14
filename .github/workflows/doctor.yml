@@ -25,7 +25,7 @@ jobs:
       # see which dev tools are used; without node_modules the config fails to
       # load and every tool it references reads as an unused dependency.
       - name: Setup pnpm
-        uses: pnpm/action-setup@v6.1.0
+        uses: pnpm/action-setup@v6.1.1
 
       - name: Setup Node.js
         uses: actions/setup-node@v7
